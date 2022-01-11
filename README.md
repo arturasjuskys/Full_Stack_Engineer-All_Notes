@@ -4,10 +4,10 @@
 # Index
 
 1. Welcome to the Full-Stack Engineer Path
-  * [css-tricks.com](https://css-tricks.com/)
-  * [DEV Community](https://dev.to/)
-  * [Can I Use](https://caniuse.com/)
-  * [Repl.it](https://replit.com/)
+   * [css-tricks.com](https://css-tricks.com/)
+   * [DEV Community](https://dev.to/)
+   * [Can I Use](https://caniuse.com/)
+   * [Repl.it](https://replit.com/)
 2. Getting Started with Full-Stack Engineering
 3. JavaScript Syntax, Part I
 4. JavaScript Syntax, Part II
