@@ -15,10 +15,21 @@
 2. Getting Started with Full-Stack Engineering
 3. JavaScript Syntax, Part I
 4. JavaScript Syntax, Part II
+   * Credit Card Checker - Challenge
 5. Setting Up Your Dev Environment
+   * Text Editors
+     * Documentation: [Debugging in VsCode](https://code.visualstudio.com/docs/editor/debugging)
+     * Documentation: [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
+     * Tool: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+     * Tool: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 6. Git and Github, Part I
+   * Resource: [GitHub CheatSheet](https://education.github.com/git-cheat-sheet-education.pdf)
 7. JavaScript Syntax Portfolio Project
+   * Mixed Messages
 8. Web Development Fundamentals
+   * Learn HTML: Structure
+     * Documentation: [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+     
 9. Bringing Your Site Online
 10. Improved Styling with CSS
 11. Building Interactive Websites with JavaScript
