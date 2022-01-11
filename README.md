@@ -28,7 +28,6 @@
    * Mixed Messages
 8. Web Development Fundamentals
    * Documentation: [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-
 9. Bringing Your Site Online
 10. Improved Styling with CSS
 11. Building Interactive Websites with JavaScript
