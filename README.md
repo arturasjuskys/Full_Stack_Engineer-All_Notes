@@ -4,10 +4,14 @@
 # Index
 
 1. Welcome to the Full-Stack Engineer Path
-   * [css-tricks.com](https://css-tricks.com/)
-   * [DEV Community](https://dev.to/)
-   * [Can I Use](https://caniuse.com/)
-   * [Repl.it](https://replit.com/)
+   * Resource: [css-tricks.com](https://css-tricks.com/)
+   * Community: [DEV Community](https://dev.to/)
+   * Resource: [Can I Use](https://caniuse.com/)
+   * Tool: [Repl.it](https://replit.com/)
+   * [x] $27.59 Book: [HTML and CSS: Design and Build Websites](https://bookshop.org/books/html-and-css-design-and-build-websites/9781118008188)
+   * [x] $36.79 [JavaScript and Jquery: Interactive Front-End Web Development](https://bookshop.org/books/javascript-and-jquery-interactive-front-end-web-development/9781118531648)
+   * [ ] $0.00 [Eloquent JavaScript](https://eloquentjavascript.net/) - a free EBook that can be used instead of or with JavaScript & JQuery
+   *  [ ] $39.95 [Cracking the Coding Interview: 189 Programming Questions and Solutions](https://bookshop.org/books/cracking-the-coding-interview-189-programming-questions-and-solutions/9780984782857)
 2. Getting Started with Full-Stack Engineering
 3. JavaScript Syntax, Part I
 4. JavaScript Syntax, Part II
