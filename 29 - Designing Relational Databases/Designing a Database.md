@@ -1,6 +1,4 @@
 # Index
-* Introduction: Designing Relational Databases
-* Inreoduction to Database Design
 * [Designing a Database](#designing-a-database)
   * [Introduction](#introduction)
   * [One-to-One Relationship](#one-to-one-relationship)
