@@ -1,5 +1,4 @@
 # Index
-
 * Introduction: Designing Relational Databases
 * Inreoduction to Database Design
 * [Designing a Database](#designing-a-database)
@@ -7,6 +6,9 @@
   * [One-to-One Relationship](#one-to-one-relationship)
   * [One-to-Many Relationship](#one-to-many-relationship)
   * [Many-to-Many Relationship Part 1](#many-to-many-relationship-part-1)
+
+# Resources
+* [Design pattern: many-to-many (order entry)](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=manymany.php)
 
 # Designing a Database
 
