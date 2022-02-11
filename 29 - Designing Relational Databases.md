@@ -5,7 +5,7 @@
 * [Designing a Database](#designing-a-database)
   * [Introduction](#introduction)
   * [One-to-One Relationship](#one-to-one-relationship)
-  * 
+  * [One-to-Many Relationship](#one-to-many-relationship)
 
 # Designing a Database
 
