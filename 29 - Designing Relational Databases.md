@@ -335,7 +335,7 @@ Now that you have related two tables with a many-to-many relationship via a cros
 In this exercise, you are going to demonstrate the many-to-many relationship between book and author through the cross-reference table, books_authors.
 
 ### Exercise
-Write statements to populate the books_authors table to show the following relationships:
+3. Write statements to populate the books_authors table to show the following relationships:
 * 'Learn PostgreSQL Volume 1' is written by both 'James Key' and 'Clara Index'
 * 'Learn PostgreSQL Volume 2' is written by 'Clara Index'
 
@@ -362,7 +362,7 @@ INSERT INTO books_authors VALUES (
 );
 ```
 
-Write a query to show the one-to-many relationship between book and author. Display three columns using these aliases - book_title, author_name and book_description.
+4. Write a query to show the one-to-many relationship between book and author. Display three columns using these aliases - book_title, author_name and book_description.
 
 You should expect 3 rows of results, in which one row might look like:
 book_title | author_name | book_description
@@ -395,7 +395,7 @@ INNER JOIN table_two
 ON table_two.primary_key = joined_table.foreign_key_two
 ```
 
-Write a query to show the one-to-many relationship between author and book. Display three columns as aliases - author_name, author_email and book_title.
+5. Write a query to show the one-to-many relationship between author and book. Display three columns as aliases - author_name, author_email and book_title.
 
 You should expect to see 3 rows of results and one of them might look like this:
 | author_name | author_email | book_title |
