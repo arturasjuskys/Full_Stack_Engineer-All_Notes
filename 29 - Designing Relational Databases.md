@@ -6,6 +6,7 @@
   * [Introduction](#introduction)
   * [One-to-One Relationship](#one-to-one-relationship)
   * [One-to-Many Relationship](#one-to-many-relationship)
+  * [Many-to-Many Relationship Part 1](#many-to-many-relationship-part-1)
 
 # Designing a Database
 
@@ -241,9 +242,65 @@ ON
 INNER JOIN page
 ON chapter.id = page.chapter_id;
 ```
+
+### Result
 book_title | chapter_title | page_content
 | -------- | ------------- | ------------ |
 Learn PostgreSQL | Chapter 1 | Chapter 1 Page 1
 Learn PostgreSQL | Chapter 1 | Chapter 1 Page 2
 Postgres Made Easy | Chapter 1 | Chapter 1 Page 1
 Postgres Made Easy | Chapter 1 | Chapter 1 Page 2
+
+## Many-to-Many Relationship Part 1
+Consider the following examples of many to many relationships:
+* A student can take many courses while a course can have enrollments from many students.
+* A recipe can have many ingredients while an ingredient can belong to many different recipes.
+* A customer can patronize many banks while a bank can service many different customers.
+
+In each of the above examples, we see that a many-to-many relationship can be broken into two one-to-many relationships.
+
+To implement a many-to-many relationship in a relational database, we would create a third cross-reference table also known as a join table. It will have these two constraints:
+* foreign keys referencing the primary keys of the two member tables.
+* a composite primary key made up of the two foreign keys.
+
+Let’s elaborate on this further with the recipe and ingredient many-to-many relationship. Let’s say a recipe table has the following columns:
+* id (primary key)
+* name
+* serving_size
+* preparation_time
+* cook_time
+
+An ingredient table has the following columns:
+* id (primary key)
+* name
+* amount
+
+A third cross-reference table, recipes_ingredients, will support the following columns:
+
+recipe_id (foreign key referencing recipe table’s id)(primary key)
+ingredient_id (foreign key referencing ingredient table’s id) (primary key)
+Both recipe_id and ingredient_id also serve as a composite primary key for recipes_ingredients.
+
+<img src="./img/recipe_ingredient_recing.webp">
+
+Many-to-many relationship database schema
+
+### Exrecise
+```SQL
+CREATE TABLE books_authors (
+  -- Creating Composite Primary Key
+  PRIMARY KEY (book_isbn, author_email),
+  -- Linking to books table
+  book_isbn varchar(50) REFERENCES book(isbn),
+  -- Linking to author table
+  author_email varchar(100) REFERENCES author(email)
+);
+
+-- Validating restrictions
+SELECT
+  constraint_name,
+  table_name,
+  column_name
+FROM information_schema.key_column_usage
+WHERE table_name = 'books_authors';
+```
