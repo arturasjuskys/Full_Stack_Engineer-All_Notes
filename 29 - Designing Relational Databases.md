@@ -83,8 +83,7 @@ SELECT
 FROM information_schema.key_column_usage
 WHERE table_name = 'book_details';
 
--- START
--- ADDING DATA
+-- START ADDING DATA
 INSERT INTO book VALUES (
   'Learn PostgreSQL',
   '123457890',
@@ -114,7 +113,7 @@ INSERT INTO book_details VALUES (
 -- END
 
 -- The query should return one row of result for the book whose title is Learn PostgreSQL
--- Learn PostgreSQL | $2.99 |	English |	3.95
+-- Learn PostgreSQL | $2.99 | English | 3.95
 SELECT
   book.title,
   book.price,
