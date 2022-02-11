@@ -2,7 +2,7 @@
 
 * Introduction: Designing Relational Databases
 * Inreoduction to Database Design
-* Designing a Database
+* [Designing a Database](#designing-a-database)
   * [Introduction](#introduction)
   * [One-to-One Relationship](#one-to-one-relationship)
   * 
@@ -70,7 +70,7 @@ Suppose we want to maintain additional optional information such as book rating,
 ```SQL
 CREATE TABLE book_details (
   id integer PRIMARY KEY,
-  -- Connecting two tables
+  -- Linking two tables by table_name(column_name)
   book_isbn varchar(50) REFERENCES book(isbn) UNIQUE,
   rating decimal,
   language varchar(10),
@@ -127,3 +127,123 @@ JOIN book_details
 ON book.isbn = book_details.book_isbn;
 ```
 
+## One-to-Many Relationship
+As opposed to one-to-one, a one-to-many relationship cannot be represented in a single table. Why? Because there will be multiple rows that need to exist for a primary key and this will result in redundant data that breaks the constraint placed upon a primary key.
+
+For example, consider a table where we want one person to be able to have many email addresses. However, if there is a primary key in the table, such as id, the following rows will be rejected by the database.
+```SQL
+name   id (PK)     email       
+Cody   2531       cody@yahoo.com 
+Cody   2531       cody@google.com
+Cody   2531       cody@bing.com
+```
+
+To resolve this, we need to represent a one-to-many relationship with two tables - a parent and a child table. Analogous to a parent-child relationship where a parent can have multiple children, a parent table will house a primary key and the child table will house both primary and foreign keys. The foreign key binds the child table to the parent table.
+
+The following illustration shows the one-to-many relationship between person and email tables.
+
+<img src="./img/person_email.png">
+
+### Exercise
+
+```SQL
+CREATE TABLE page (
+  id integer PRIMARY KEY,
+  -- Linking two tables by table_name(column_name)
+  chapter_id integer REFERENCES chapter(id),
+  content text,
+  header varchar(20),
+  footer varchar(20)
+);
+
+-- Omiting from displaying
+ALTER TABLE chapter
+DROP COLUMN content;
+
+-- Displaying restrictions
+SELECT
+  constraint_name,
+  table_name,
+  column_name
+FROM information_schema.key_column_usage
+WHERE table_name = 'page';
+
+-- START ADDING DATA
+INSERT INTO book VALUES (
+  'Learn PostgreSQL',
+  '0-9673-4537-5',
+  100,
+  2.99,
+  'Dive into Postgres for Beginners',
+  'Codecademy Publishing'
+);
+INSERT INTO book VALUES (
+  'Postgres Made Easy',
+  '0-3414-4116-3',
+  255,
+  5.99,
+  'Learn Postgres the Easy Way',
+  'Codecademy Press'
+);
+
+INSERT INTO chapter VALUES (
+  1,
+  '0-9673-4537-5',
+  1,
+  'Chapter 1'
+);
+INSERT INTO chapter VALUES (
+  2,
+  '0-3414-4116-3',
+  1,
+  'Chapter 1'
+);
+
+INSERT INTO page VALUES (
+  1,
+  1,
+  'Chapter 1 Page 1',
+  'Page 1 Header',
+  'Page 1 Footer'
+);
+INSERT INTO page VALUES (
+  2,
+  1,
+  'Chapter 1 Page 2',
+  'Page 2 Header',
+  'Page 2 Footer'
+);
+INSERT INTO page VALUES (
+  3,
+  2,
+  'Chapter 1 Page 1',
+  'Page 1 Header',
+  'Page 1 Footer'
+);
+INSERT INTO page VALUES (
+  4,
+  2,
+  'Chapter 1 Page 2',
+  'Page 2 Header',
+  'Page 2 Footer'
+);
+-- END
+
+-- Joining all tables
+SELECT
+  book.title AS book_title,
+  chapter.title AS chapter_title,
+  page.content AS page_content
+FROM book
+INNER JOIN chapter
+ON
+  book.isbn = chapter.book_isbn
+INNER JOIN page
+ON chapter.id = page.chapter_id;
+```
+book_title | chapter_title | page_content
+| -------- | ------------- | ------------ |
+Learn PostgreSQL | Chapter 1 | Chapter 1 Page 1
+Learn PostgreSQL | Chapter 1 | Chapter 1 Page 2
+Postgres Made Easy | Chapter 1 | Chapter 1 Page 1
+Postgres Made Easy | Chapter 1 | Chapter 1 Page 2
