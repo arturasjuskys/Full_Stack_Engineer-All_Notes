@@ -4,9 +4,9 @@
 * Inreoduction to Database Design
 * Designing a Database
 
-## Designing a Database
+# Designing a Database
 
-### Introduction
+## Introduction
 In this lesson, we will learn about relationships between tables and how to use this knowledge to enhance our database. This lesson is built upon prior knowledge of database keys in the Database Keys lesson.
 
 On the right is a sample database schema diagram. Let’s take a look at what it entails. There are seven tables in this diagram and most of them are related to each other with the exception of a standalone table, popular_books. In each table, primary keys are bolded. The lines between tables connect foreign keys and primary keys.
@@ -17,7 +17,7 @@ What are the different types of database relationships? There are three types: o
 
 <img src="./img/books_large.webp">
 
-### One-to-One Relationship
+## One-to-One Relationship
 
 In a one-to-one relationship, a row of table A is associated with exactly one row of table B and vice-versa. For example, a person may only have one passport assigned to them. Conversely, a passport may only be issued to one person. A car may only have one vehicle identification number assigned to it and vice-versa. A driver may only have one driver’s license issued to them in their home state.
 
@@ -58,4 +58,10 @@ CREATE TABLE license (
     date_expired  date,
     license_id char(20) REFERENCES driver(license_id) UNIQUE
 );
+```
+
+### Exercise
+
+```SQL
+
 ```
