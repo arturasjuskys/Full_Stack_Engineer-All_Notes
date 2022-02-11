@@ -286,6 +286,7 @@ Both recipe_id and ingredient_id also serve as a composite primary key for recip
 Many-to-many relationship database schema
 
 ### Exrecise
+`script.sql`
 ```SQL
 CREATE TABLE books_authors (
   -- Creating Composite Primary Key
@@ -303,4 +304,112 @@ SELECT
   column_name
 FROM information_schema.key_column_usage
 WHERE table_name = 'books_authors';
+```
+`db.sql`
+```SQL
+/* All tables should be created in a new schema called cc_user */
+
+DROP SCHEMA IF EXISTS cc_user CASCADE;
+CREATE SCHEMA cc_user;
+SET SEARCH_PATH = cc_user;
+
+CREATE TABLE book (
+  title varchar(100),
+  isbn varchar(50) PRIMARY KEY,
+  pages integer,
+  price money,
+  description varchar(256),
+  publisher varchar(100)
+);
+
+CREATE TABLE author (
+  name varchar(50),
+  bio varchar(100),
+  email varchar(20) PRIMARY KEY
+);
+```
+
+## Many-to-Many Relationship Part 2
+Now that you have related two tables with a many-to-many relationship via a cross-reference table, you will get to populate the cross-reference table and make interesting queries.
+
+In this exercise, you are going to demonstrate the many-to-many relationship between book and author through the cross-reference table, books_authors.
+
+### Exercise
+Write statements to populate the books_authors table to show the following relationships:
+* 'Learn PostgreSQL Volume 1' is written by both 'James Key' and 'Clara Index'
+* 'Learn PostgreSQL Volume 2' is written by 'Clara Index'
+
+The primary keys for books are:
+* `'123457890' for 'Learn PostgreSQL Volume 1'
+* '987654321' for 'Learn PostgreSQL Volume 2'
+
+The primary keys for authors are:
+* 'jkey@db.com' for 'James Key'
+* 'cindex@db.com' for 'Clara Index'
+
+```SQL
+INSERT INTO books_authors VALUES (
+  '123457890',
+  'jkey@db.com'
+);
+INSERT INTO books_authors VALUES (
+  '123457890',
+  'cindex@db.com'
+);
+INSERT INTO books_authors VALUES (
+  '987654321',
+  'cindex@db.com'
+);
+```
+
+Write a query to show the one-to-many relationship between book and author. Display three columns using these aliases - book_title, author_name and book_description.
+
+You should expect 3 rows of results, in which one row might look like:
+book_title | author_name | book_description
+| -------- | ----------- | ---------------- |
+| Learn PostgreSQL Volume 1 | Clara Index | Manage database part one |
+
+```SQL
+SELECT
+  book.title AS book_title,
+  author.name AS author_name,
+  book.description AS book_description
+FROM book, author, books_authors
+WHERE book.isbn = books_authors.book_isbn
+AND author.email = books_authors.author_email;
+```
+
+```SQL
+-- To display selected columns (column_one and column_two) from different tables (table_one and table_two) as aliases (alias_one and alias_two) and join them with the help of a cross-reference table (joined_table), use the following syntax:
+SELECT column_one AS alias_one, column_two AS alias_two
+FROM table_one, table_two, joined_table
+WHERE table_one.primary_key = joined_table.foreign_key_one
+AND table_two.primary_key = joined_table.foreign_key_two
+
+-- Alternatively, you can query with INNER JOIN from three tables.
+SELECT column_one AS alias_one, column_two AS alias_two
+FROM table_one
+INNER JOIN joined_table
+ON table_one.primary_key = joined_table.foreign_key_one
+INNER JOIN table_two
+ON table_two.primary_key = joined_table.foreign_key_two
+```
+
+Write a query to show the one-to-many relationship between author and book. Display three columns as aliases - author_name, author_email and book_title.
+
+You should expect to see 3 rows of results and one of them might look like this:
+| author_name | author_email | book_title |
+| ----------- | ------------ | ---------- |
+| Clara Index | cindex@db.com | Learn PostgreSQL | Volume 1 |
+
+```SQL
+SELECT
+  author.name AS author_name,
+  author.email AS author_email,
+  book.title AS book_title
+FROM author
+INNER JOIN books_authors
+ON author.email = books_authors.author_email
+INNER JOIN book
+ON book.isbn = books_authors.book_isbn;
 ```
