@@ -34,7 +34,9 @@
       * [GitHub Learing Lab](https://lab.github.com/)
       * [GitHub Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 12. Portfolio Project: JavaScript Syntax
+      * [ ] Mixed Messages
 13. Building Interactive Websites
+      * [MDN: DOM Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 14. Proftolio Project: Personal Portfolio Website
 15. JavaScript Syntax, Part III
 16. JavaScript Testing
