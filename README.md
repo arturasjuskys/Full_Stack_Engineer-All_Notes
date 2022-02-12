@@ -18,6 +18,9 @@
 5. Developing Websites Locally
 6. Deploying Websites
 7. Improved Styling with CSS
+   * [Cursor Styles and Interactions](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
+   * [Signifiers, Not Affordances](https://jnd.org/signifiers_not_affordances/)
+   * [UI Patterns.com](https://ui-patterns.com/)
 8. Making a Website Responsive
 9. JavaScript Syntax, Part I
 10. JavaScript Syntax, Part II
