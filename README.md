@@ -27,12 +27,12 @@
 9. JavaScript Syntax, Part I
 10. JavaScript Syntax, Part II
 11. Git and GitHub, Part I
-   * [Choose an Open Source License](https://choosealicense.com/)
-   * [Codecademy: Coding Terms, References & Concepts](https://www.codecademy.com/resources/docs)
-   * [Codecademy: Docs Repo](https://github.com/Codecademy/docs)
-   * [Youtube Playlist: Get Up and Runing](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
-   * [GitHub Learing Lab](https://lab.github.com/)
-   * [GitHub Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+      * [Choose an Open Source License](https://choosealicense.com/)
+      * [Codecademy: Coding Terms, References & Concepts](https://www.codecademy.com/resources/docs)
+      * [Codecademy: Docs Repo](https://github.com/Codecademy/docs)
+      * [Youtube Playlist: Get Up and Runing](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+      * [GitHub Learing Lab](https://lab.github.com/)
+      * [GitHub Guide to Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 12. Portfolio Project: JavaScript Syntax
 13. Building Interactive Websites
 14. Proftolio Project: Personal Portfolio Website
