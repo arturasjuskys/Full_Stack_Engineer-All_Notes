@@ -37,6 +37,11 @@
       * [ ] Mixed Messages
 13. Building Interactive Websites
       * [MDN: DOM Element](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+      * [MDN: Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
+      * [MDN: Regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+      * [MDN: Client-Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+      * [NPM: just-validate](https://www.npmjs.com/package/just-validate)
+      * [NPM: formik library](https://www.npmjs.com/package/formik)
 14. Proftolio Project: Personal Portfolio Website
 15. JavaScript Syntax, Part III
 16. JavaScript Testing
