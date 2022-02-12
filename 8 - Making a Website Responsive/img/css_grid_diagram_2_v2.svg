@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1214px" height="941px" viewBox="0 0 1214 941" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>2 panel_example_2 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-panel_example_2-copy">
+            <polygon id="Page-1" points="-1 941 1213 941 1213 0 -1 0"></polygon>
+            <g id="Group-2" transform="translate(529.000000, 813.000000)" font-size="24" font-family="Oxygen-Light, Oxygen" fill="#7A98A9" font-weight="300">
+                <text id="12-column-grid">
+                    <tspan x="0.7334" y="25.8320125">12-</tspan>
+                    <tspan x="29.0107438" y="25.8320125" letter-spacing="-0.036">c</tspan>
+                    <tspan x="40.2364625" y="25.8320125">olumn grid</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" x="171" y="149" width="134" height="144"></rect>
+            <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="171" y="306" width="134" height="144"></rect>
+            <rect id="Rectangle-Copy-13" fill="#FFFFFF" x="540" y="306" width="503" height="144"></rect>
+            <rect id="Rectangle-Copy-3" fill="#FFFFFF" x="984" y="149" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-5" fill="#FFFFFF" x="171" y="461" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="171" y="616" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-10" fill="#FFFFFF" x="319" y="617" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="245" y="617" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-11" fill="#FFFFFF" x="393" y="618" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-7" fill="#FFFFFF" x="762" y="617" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-10" fill="#FFFFFF" x="910" y="618" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-8" fill="#FFFFFF" x="836" y="618" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-11" fill="#FFFFFF" x="984" y="619" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-12" fill="#FFFFFF" x="467" y="618" width="282" height="144"></rect>
+            <rect id="Rectangle-Copy-6" fill="#FFFFFF" x="245" y="461" width="60" height="144"></rect>
+            <rect id="Rectangle-Copy-14" fill="#FFFFFF" x="541" y="461" width="355" height="144"></rect>
+            <rect id="Rectangle-Copy-15" fill="#FFFFFF" x="910" y="460" width="134" height="66"></rect>
+            <rect id="Rectangle-Copy-16" fill="#FFFFFF" x="910" y="539" width="134" height="66"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" x="319" y="149" width="208" height="144"></rect>
+            <rect id="Rectangle-Copy-9" fill="#FFFFFF" x="319" y="306" width="208" height="298"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="541" y="149" width="429" height="144"></rect>
+            <g id="Group-28" transform="translate(171.000000, 149.000000)" fill="#DEE6E9" opacity="0.6">
+                <g id="Group-3">
+                    <polygon id="Fill-4" points="369.545455 612.433363 429.545455 612.433363 429.545455 0.127099936 369.545455 0.127099936"></polygon>
+                    <polygon id="Fill-6" points="295.636364 612.433363 355.636364 612.433363 355.636364 0.127099936 295.636364 0.127099936"></polygon>
+                    <polygon id="Fill-8" points="443.454545 612.433363 503.454545 612.433363 503.454545 0.127099936 443.454545 0.127099936"></polygon>
+                    <polygon id="Fill-10" points="517.363636 612.433363 577.363636 612.433363 577.363636 0.127099936 517.363636 0.127099936"></polygon>
+                    <polygon id="Fill-12" points="665.181818 612.433363 725.181818 612.433363 725.181818 0.127099936 665.181818 0.127099936"></polygon>
+                    <polygon id="Fill-14" points="591.272727 612.433363 651.272727 612.433363 651.272727 0.127099936 591.272727 0.127099936"></polygon>
+                    <polygon id="Fill-16" points="739.090909 612.433363 799.090909 612.433363 799.090909 0.127099936 739.090909 0.127099936"></polygon>
+                    <polygon id="Fill-18" points="813 612.306263 873 612.306263 873 0 813 0"></polygon>
+                    <polygon id="Fill-20" points="73.9090909 612.433363 133.909091 612.433363 133.909091 0.127099936 73.9090909 0.127099936"></polygon>
+                    <polygon id="Fill-22" points="0 612.306263 60 612.306263 60 0 0 0"></polygon>
+                    <polygon id="Fill-24" points="147.818182 612.433363 207.818182 612.433363 207.818182 0.127099936 147.818182 0.127099936"></polygon>
+                    <polygon id="Fill-26" points="221.727273 612.433363 281.727273 612.433363 281.727273 0.127099936 221.727273 0.127099936"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

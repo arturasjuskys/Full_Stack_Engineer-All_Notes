@@ -22,6 +22,7 @@
    * [Signifiers, Not Affordances](https://jnd.org/signifiers_not_affordances/)
    * [UI Patterns.com](https://ui-patterns.com/)
    * [CSS: Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+   * [Everything You Need to Know About Wireframe Design and Prototypes](https://xd.adobe.com/ideas/process/wireframing/wireframe-design-definition/)
 8. Making a Website Responsive
 9. JavaScript Syntax, Part I
 10. JavaScript Syntax, Part II
