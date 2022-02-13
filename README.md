@@ -44,6 +44,11 @@
       * [NPM: formik library](https://www.npmjs.com/package/formik)
 14. Proftolio Project: Personal Portfolio Website
 15. JavaScript Syntax, Part III
+      * [Article: Learing JavaScript Designing Patterns](https://www.patterns.dev/posts/classic-design-patterns/)
+      * [Article: Reducing Complexity with Guard Clauses in PHP and JavaScript](https://engineering.helpscout.com/reducing-complexity-with-guard-clauses-in-php-and-javascript-74600fd865c7)
+      * [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+      * [Article: Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
+      * [Article: Understanding Classes in JavaScript](https://www.taniarascia.com/understanding-classes-in-javascript/)
 16. JavaScript Testing
 17. Async JavaScript and HTTP Requests
 18. Web Apps
