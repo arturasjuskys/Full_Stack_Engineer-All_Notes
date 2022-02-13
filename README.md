@@ -60,6 +60,9 @@
       * [Documentation: Sinon spies](https://sinonjs.org/releases/v13/)
       * [Article: Introduction to Test Driven Development (TDD)](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
 17. Async JavaScript and HTTP Requests
+      * [Youtube: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+      * [MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+      * [MDN: Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
 18. Web Apps
 19. React, Part I
 20. React, Pat II
