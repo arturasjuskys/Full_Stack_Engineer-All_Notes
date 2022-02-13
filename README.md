@@ -63,6 +63,22 @@
       * [Youtube: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
       * [MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
       * [MDN: Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+      * [Codecademy: What is REST?](https://www.codecademy.com/articles/what-is-rest)
+      * [Wikipedia: List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+      * [Wikipedia: Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority)
+      * [MDN: List of Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+      * [API: Open Weather API](https://openweathermap.org/)
+      * [Codecademy: What is CRUD?](https://www.codecademy.com/article/what-is-crud)
+      * [MDN: MIME Types (IANA media types)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+      * [Documentation: ESMA International: JSON](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/)
+      * Some of the popular web APIs that utilize JSON in data exchanges are:
+         * [Google Maps](https://developers.google.com/maps/documentation/geocoding/start)
+         * [Google Auth 2.0 Authentication](https://developers.google.com/identity/protocols/oauth2/service-account)
+         * [Facebook Social Graph API](https://developers.facebook.com/docs/messenger-platform/reference/send-api)
+         * [Spotify Music Web API](https://developer.spotify.com/documentation/web-api/)
+         * [LinkedIn Profile API](https://docs.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api)
+      * [Documentation: ISO 8601: Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)
+      * [Wikipedia: Programming Style](https://en.wikipedia.org/wiki/Programming_style)
 18. Web Apps
 19. React, Part I
 20. React, Pat II
