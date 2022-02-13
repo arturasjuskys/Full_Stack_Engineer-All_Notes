@@ -79,6 +79,13 @@
          * [LinkedIn Profile API](https://docs.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api)
       * [Documentation: ISO 8601: Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)
       * [Wikipedia: Programming Style](https://en.wikipedia.org/wiki/Programming_style)
+      * [MDN: HTTP Request Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+      * [MDN: Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+      * [MDN: Extensible Markup Language (XML).](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
+      * [MDN: AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
+      * [MDN: Graceful asynchronous programming with Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
+      * [MDN: Choosing the Right Approach](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Choosing_the_right_approach)
+      * [MDN: An Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 18. Web Apps
 19. React, Part I
 20. React, Pat II
