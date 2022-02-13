@@ -99,6 +99,8 @@
       * [React: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
       * [GitHub: Awesome React](https://github.com/enaqx/awesome-react)
 20. React, Pat II
+      * [Article: ES6 in Depth: Classes](https://hacks.mozilla.org/2015/07/es6-in-depth-classes/)
+      * [React: Handling Events](https://reactjs.org/docs/handling-events.html)
 21. Redux
 22. Git and GitHub, Part II
 23. Portfolio Project: Reddit Client
