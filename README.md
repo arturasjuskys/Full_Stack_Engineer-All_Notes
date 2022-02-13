@@ -87,6 +87,7 @@
       * [MDN: Choosing the Right Approach](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Choosing_the_right_approach)
       * [MDN: An Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 18. Web Apps
+      * [Wappalyzer chrome extension](https://www.wappalyzer.com/)
 19. React, Part I
 20. React, Pat II
 21. Redux
