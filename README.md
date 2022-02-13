@@ -107,6 +107,9 @@
       * [Article: 4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
       * [React: Optimizing Performance by Skipping Effects](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
       * [React: Building YOur Own Hooks](https://reactjs.org/docs/hooks-custom.html)
+      * [Article: Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+      * [Article: Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+      * [React: Forms](https://reactjs.org/docs/forms.html)
 21. Redux
 22. Git and GitHub, Part II
 23. Portfolio Project: Reddit Client
