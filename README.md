@@ -92,6 +92,8 @@
       * [Youtube: The Virtual DOM](https://www.youtube.com/watch?v=jwRAdGLUarw&ab_channel=Codecademy)
       * [Article: The DOM](https://eloquentjavascript.net/14_dom.html)
       * [Article: Virtual DOM vs DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
+      * [React: JSX in Depth](https://reactjs.org/docs/jsx-in-depth.html)
+      * [React: React Top-Level API](https://reactjs.org/docs/react-api.html)
 20. React, Pat II
 21. Redux
 22. Git and GitHub, Part II
