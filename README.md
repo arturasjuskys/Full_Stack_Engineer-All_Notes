@@ -89,6 +89,9 @@
 18. Web Apps
       * [Wappalyzer chrome extension](https://www.wappalyzer.com/)
 19. React, Part I
+      * [Youtube: The Virtual DOM](https://www.youtube.com/watch?v=jwRAdGLUarw&ab_channel=Codecademy)
+      * [Article: The DOM](https://eloquentjavascript.net/14_dom.html)
+      * [Article: Virtual DOM vs DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
 20. React, Pat II
 21. Redux
 22. Git and GitHub, Part II
