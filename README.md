@@ -94,6 +94,10 @@
       * [Article: Virtual DOM vs DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
       * [React: JSX in Depth](https://reactjs.org/docs/jsx-in-depth.html)
       * [React: React Top-Level API](https://reactjs.org/docs/react-api.html)
+      * [Tutorial: Create React App](https://create-react-app.dev/docs/getting-started)
+      * [React: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+      * [React: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+      * [GitHub: Awesome React](https://github.com/enaqx/awesome-react)
 20. React, Pat II
 21. Redux
 22. Git and GitHub, Part II
