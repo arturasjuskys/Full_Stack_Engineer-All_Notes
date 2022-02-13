@@ -51,6 +51,7 @@
       * [Article: Understanding Classes in JavaScript](https://www.taniarascia.com/understanding-classes-in-javascript/)
 16. JavaScript Testing
       * [Documentation: Node.js Assert](https://nodejs.org/api/assert.html)
+      * [Documentation: Mocha](https://mochajs.org/#getting-started)
 17. Async JavaScript and HTTP Requests
 18. Web Apps
 19. React, Part I
