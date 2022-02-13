@@ -53,6 +53,12 @@
       * [Documentation: Node.js Assert](https://nodejs.org/api/assert.html)
       * [Documentation: Mocha](https://mochajs.org/#getting-started)
       * [Documentation: Chai](https://www.chaijs.com/guide/)
+      * [Wikipedia: Control-Flow Graph](https://en.wikipedia.org/wiki/Control-flow_graph)
+      * [Wikipedia: Code Coverage](https://en.wikipedia.org/wiki/Code_coverage#Parameter_value_coverage)
+      * [Wikipedia: Product Requirement Document](https://en.wikipedia.org/wiki/Product_requirements_document)
+      * [Article: The difference between mocks and stubs, explained with JS](https://dev.to/snird/the-difference-between-mocks-and-stubs-explained-with-js-kkc)
+      * [Documentation: Sinon spies](https://sinonjs.org/releases/v13/)
+      * [Article: Introduction to Test Driven Development (TDD)](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
 17. Async JavaScript and HTTP Requests
 18. Web Apps
 19. React, Part I
