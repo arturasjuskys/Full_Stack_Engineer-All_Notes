@@ -102,6 +102,11 @@
       * [Article: ES6 in Depth: Classes](https://hacks.mozilla.org/2015/07/es6-in-depth-classes/)
       * [React: Handling Events](https://reactjs.org/docs/handling-events.html)
       * [Youtube: Setting up React Developer Tools on your computer](https://www.youtube.com/watch?v=fXRB6wgeKOo&t=1s&ab_channel=Codecademy)
+      * [React: Adding Lifecycle Methods to a Class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
+      * [React: Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
+      * [Article: 4 Types of Memory Leaks in JavaScript and How to Get Rid Of Them](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
+      * [React: Optimizing Performance by Skipping Effects](https://reactjs.org/docs/hooks-effect.html#tip-optimizing-performance-by-skipping-effects)
+      * [React: Building YOur Own Hooks](https://reactjs.org/docs/hooks-custom.html)
 21. Redux
 22. Git and GitHub, Part II
 23. Portfolio Project: Reddit Client
