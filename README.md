@@ -50,6 +50,7 @@
       * [Article: Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
       * [Article: Understanding Classes in JavaScript](https://www.taniarascia.com/understanding-classes-in-javascript/)
 16. JavaScript Testing
+      * [Documentation: Node.js Assert](https://nodejs.org/api/assert.html)
 17. Async JavaScript and HTTP Requests
 18. Web Apps
 19. React, Part I

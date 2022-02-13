@@ -1,0 +1,276 @@
+# Index
+* [Automate and Organize Tests](#automate-and-organize-tests)
+  * [Install Mocha I](#install-mocha-i)
+  * [describe and it blocks](#describe-and-it-blocks)
+  * [assert](#assert)
+  * [Setup, Exercise, and Verify](#setup-exercise-and-verify)
+  * [Teardown](#teardown)
+  * [Hooks](#hooks)
+  * [Review](#review)
+* [Write Expressive Tests](#write-expressive-tests)
+  * [assert.ok](#assert-ok)
+
+# Automate and Organize Tests
+
+## Install Mocha I
+```
+npm install mocha -D
+```
+
+## Install Mocha II
+After installing Mocha as a dependency we can run it in two ways.
+
+The first (and more tedious) method is to call it directly from node_modules:
+```
+$ ./node_modules/mocha/bin/mocha
+```
+
+The second (and recommended) method is to add a script to package.json. In the scripts object in package.json, set the value of "test" to mocha. It should look like this:
+```
+"scripts": {
+  "test": "mocha"
+}
+```
+
+Now you can call Mocha with the following command:
+```
+$ npm test
+```
+
+Instead of manually running each test in the test directory, you can use this command to run the full test suite automatically.
+
+## describe and it blocks
+In Mocha we group tests using the describe function and define tests using the it function. These two functions can be used to make your test suite complete, maintainable, and expressive in the following ways:
+* Structure your test suite: you can organize tests into nested groups that reflect the structure of your implementation code.
+* Provide informative messages: you can define your tests using human-readable strings.
+
+If you are testing a Math object with the method .max, you could use the following test code.
+```JS
+describe('Math', () => {
+  describe('.max', () => {
+    it('returns the argument with the highest value', () => {
+      // Your test goes here
+    });
+    it('returns -Infinity when no arguments are provided', () => {
+      // Your test goes here
+    });
+  });
+});
+```
+
+Both the describe and it functions accept two parameters: a descriptive string and a callback function. Though the functions are flexible, they are commonly used in the structure above: nest describe blocks to resemble the structure of your implementation code and write individual tests in it blocks. This makes your test suite isolated, maintainable, and expressive.
+
+## assert
+In the last exercise, you learned how to organize and automate tests using the Mocha test framework. To write the tests themselves, we can use the assert.ok method provided by Node.js.
+
+In programming, a test compares an expected outcome to an actual outcome. For example, we expect the outcome of the following code…
+```JS
+const a = 1 + 2;
+```
+
+…to be: a has a value of 3.
+
+To test the value saved to a with plain JavaScript, you would need to write a conditional statement comparing a to the expected result. Inside the statement, you would construct an error when the actual outcome does not match the expected.
+```JS
+if (a !== 3) {
+  throw 'Test failed! a is not 3'
+} 
+```
+
+assert.ok() allows you to compare values and throw errors as needed using one function call. The small, human-readable format of the functions will help you make a more expressive test suite.
+
+As a Node module, assert can be imported at the top of your files with
+```JS
+const assert = require('assert');
+```
+
+You call assert functions like this:
+```JS
+assert.ok(a === 3);
+```
+
+In this case a === 3 evaluates to true, so no error is thrown.
+
+If an argument passed to assert.ok() evaluates to false, an AssertionError is thrown. The error communicates to Mocha that a test has failed, and Mocha logs the error message to the console.
+
+## Setup, Exercise, and Verify
+In this exercise you will be separating a test into setup, exercise, and verify phases. This distinct and well-defined separation of steps makes your test more reliable, maintainable, and expressive.
+
+The phases are defined as follows:
+* Setup - create objects, variables, and set conditions that your test depends on
+* Exercise - execute the functionality you are testing
+* Verify - check your expectations against the result of the exercise phase. You can use the assert library here
+
+Clear separation of each phase makes a test easier to read, change, and validate.
+
+## Teardown
+So far, we’ve been writing just one test using a single it() block. However, in most situations, we will need to write many tests for a particular feature that get executed in succession.
+
+Running multiple tests can introduce issues if the tests make changes to the testing environment: changes to the environment in one test might affect the next test. Some common changes to an environment include:
+* altering files and directory structure
+* changing read and write permissions on a file
+* editing records in a database
+
+To address this issue, we often add a teardown step to the end of our tests. The teardown phase makes our tests isolated by resetting the environment before the next test runs. This provides two key benefits:
+* Changes to the environment caused by one test do not affect the other tests.
+* Isolated tests can be executed in any order!
+
+Note: In some cases — including the previous exercises  — the teardown phase isn’t needed because there are no conditions to reset. 
+
+## Hooks
+Over the last two exercises, we learned about the four main phases of a test: setup, execute, verify, and teardown. In the last exercise, you may have noticed that the setup and teardown steps were identical between tests.
+
+While execution and verification are unique to each test, setup and teardown are often similar or even identical for multiple tests within a test suite. The Mocha test framework provides functions that enable us to reduce repetition, simplify the scope of each test, and more finely control the execution of our tests.
+
+These functions (also referred to as hooks) are:
+* beforeEach(callback) - callback is run before each test
+* afterEach(callback) - callback is run after each test
+* before(callback) - callback is run before the first test
+* after(callback) - callback is run after the last test
+
+Each hook accepts a callback to be executed at various times during a test. The before... hooks naturally happen before tests and are useful for separating out the setup steps of your tests. Meanwhile, the after... hooks are executed after tests and are useful for separating out the teardown steps of your tests.
+```JS
+describe('messing around with hooks', () => {
+ 
+  let testValue; // Variable used by both tests
+ 
+  beforeEach(() => {
+    testValue = 5;
+  });
+ 
+  it('should add', () => {
+    // testValue = 5 <-- moved to beforeEach()
+    testValue = testValue + 5;
+    assert.equal(testValue, 10);
+  });
+ 
+  it('should multiply', () => {
+    // testValue = 5 <-- moved to beforeEach()
+    testValue = testValue * 5;
+    assert.equal(testValue, 25);
+  });
+ 
+});
+```
+
+In this example, while each it() block could have set the testValue to 5, using the beforeEach() hook allows us to avoid that repetition while keeping each test isolated.
+
+Keep in mind that not all setup and teardown steps should be included in these hooks. Occasionally, you may find that you need to perform some unique setup or teardown for a single test that you don’t want to include in other tests.
+
+## Review
+You can now write tests with Mocha and Node’s assert.ok() ! In this lesson you learned to:
+* Install Mocha with npm
+* Organize tests with describe() and it()
+* Ensure your tests are isolated and expressive with the four phases of a test
+* Ensure your tests are reliable with hooks
+* Write assertions with assert.ok()
+
+# Write Expressive Tests
+
+## assert.ok
+As a Node module, assert can be imported at the top of your files with
+```JS
+const assert = require('assert');
+```
+
+The functions in the [assert library](https://nodejs.org/api/assert.html) compare values and throw errors as needed using one function call. The small, human-readable format of the functions will help you make a more expressive test suite.
+```JS
+assert.ok(6 - 1 === 5);
+```
+In this case 6 - 1 === 5 evaluates to true, so no error is thrown.
+
+If an argument passed to assert.ok() evaluates to false, an AssertionError is thrown. The error communicates to Mocha that a test has failed, and Mocha logs the error message to the console.
+
+## assert.equal
+You can use assert.ok() for most verifications, but sometimes it can be difficult to determine the condition you are evaluating.
+
+Read the example code below. Will this assertion throw an error?
+```JS
+const landAnimals = ['giraffe', 'squirrel'];
+const waterAnimals = ['shark', 'stingray'];
+ 
+landAnimals.push('frog');
+waterAnimals.push('frog');
+ 
+assert.ok(landAnimals[2] == waterAnimals[2]);
+```
+
+The above assertion is checking for equality. In order to understand this you must evaluate the entire expression within the parentheses of .ok().
+
+You can instead use assert.equal() which does the == comparison for us.
+
+In the example below, the two methods achieve the same outcome.
+```JS
+assert.ok(landAnimals[2] == waterAnimals[2]);
+assert.equal(landAnimals[2], waterAnimals[2]);
+```
+
+The second line is more expressive: instead of parsing the entire statement, a reader only needs to read the first two words to know the test is verifying equality!
+
+## assert.strictEqual
+Take a look at the code below. Will these assertions throw errors?
+```JS
+const a = 3;
+const b = '3';
+assert.ok(a == b);
+assert.ok(a === b);
+```
+
+* The first assertion will not throw an error because it uses loose (==) equality. It performs a type conversion when comparing two things.
+* The second will throw an error because it uses strict (===) equality. It returns false if the types differ.
+
+If you need to be strict in evaluating equality, you can use assert.strictEqual().
+* assert.equal() performs a == comparison
+* assert.strictEqual() performs a === comparison
+
+Compare the following code to the first example. This code performs the same verifications, but it is more expressive. Without parsing any logic, a reader would know the intention of your tests by reading the method names.
+```JS
+const a = 3;
+const b = '3';
+assert.equal(a, b);
+assert.strictEqual(a, b);
+```
+
+July 2021 Update: the [assert documentation](https://nodejs.org/api/assert.html#assert_assert_equal_actual_expected_message) recommends always using assert.strictEqual() instead of assert.equal().
+
+## assert.deepEqual I
+Do you think these assertions will throw errors?
+```JS
+const a = {relation: 'twin', age: '17'};
+const b = {relation: 'twin', age: '17'};
+assert.equal(a, b);
+assert.strictEqual(a, b);
+```
+
+Both assertions will throw an error because distinct objects are not considered equal when using either loose or strict equality in JavaScript.
+
+If you need to compare the values within two objects, you can use assert.deepEqual(). This method compares the values of each object using loose (==) equality.
+
+The following code will not throw an error…
+```JS
+assert.deepEqual(a, b);
+```
+
+…and you can confirm by manually comparing the relation and age properties of each object.
+```JS
+a.relation == b.relation;
+a.age == b.age;
+```
+
+## assert.deepEqual II
+In the last exercise you used deepEqual() to compare the values of two objects with loose equality. Arrays are also objects, so deepEqual() also compares their values with loose equality.
+```JS
+const arr1 = [1, 2, 3];
+const arr2 = [1, 2, 3];
+const arr3 = [1, 2, '3'];
+ 
+assert.deepEqual(arr1, arr2); // No error
+assert.deepEqual(arr1, arr3); // No error
+```
+
+If you’d like to learn more about deepEqual(), the documentation is available [here](https://nodejs.org/api/assert.html#assert_assert_deepequal_actual_expected_message).
+
+## Other assert methods
+Node’s assert library includes more than the four methods covered so far. You can find them all in the [Node.js documentation](https://nodejs.org/api/assert.html).
+
+Many of the methods can be implemented using other methods, like using assert.ok(1 == 1) to implement assert.equal(1,1). Although this can be used for many types of tests, more descriptive functions like assert.equal, assert.strictEqual, and assert.deepEqual allow us to be more expressive: the expected functionality of the implementation code is clear to anyone reading your tests.
