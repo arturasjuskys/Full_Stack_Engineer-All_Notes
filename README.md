@@ -101,6 +101,7 @@
 20. React, Pat II
       * [Article: ES6 in Depth: Classes](https://hacks.mozilla.org/2015/07/es6-in-depth-classes/)
       * [React: Handling Events](https://reactjs.org/docs/handling-events.html)
+      * [Youtube: Setting up React Developer Tools on your computer](https://www.youtube.com/watch?v=fXRB6wgeKOo&t=1s&ab_channel=Codecademy)
 21. Redux
 22. Git and GitHub, Part II
 23. Portfolio Project: Reddit Client
