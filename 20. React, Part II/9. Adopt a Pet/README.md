@@ -38,3 +38,41 @@ npm start
 As you can see, the project has been started for you! Take a look at src/App.js where you can see the Navigation and HomePage components being rendered. However, while you can click on the various links in the website, the application isn’t set up to handle those changing routes. Now, it is up to you to add React Router to this project.
 
 Note: This application was created using [Create React App](https://www.codecademy.com/articles/how-to-create-a-react-app).
+
+# Instructions
+
+1. Install react-router-dom so that you can use React Router components in your project. Use the command below:
+```
+npm install --save react-router-dom@5.2.0
+```
+
+Jan 2022 Update: This project is meant to be written using [React Router v5](https://v5.reactrouter.com/). React Router v6 introduces breaking changes and your project will not work using these instructions if you install v6 via the default command npm install react-router-dom. Check out the docs to learn more about [upgrading from v5 to v6](https://reactrouter.com/docs/en/v6/upgrading/v5).
+
+To check that you were successful, ensure that react-router-dom appears in the "dependencies" object located within your project’s package.json file.
+
+2. In src/App.js, import React Router’s BrowserRouter component and alias it to Router.
+
+3. In src/App.js, wrap your applications contents in a Router so that your components can use React Router’s components and hooks.
+
+## Creating Your First Route
+
+4. Great job! Now that you’ve wrapped your application in a Router, you are ready to start adding Routes.
+
+Before you can use the Route component, you need to add it to the list of imports from react-router-dom.
+
+5. First, you will create a Route that renders the HomePage component which displays the list of animals available for adoption. This component should appear when the path matches /:type, where :type corresponds to one of the species of pets (in which case the home page should render only pets of the given species).
+
+Wrap your HomePage component in a Route component. The Route should have a path prop of /:type so that the home page will render the species specified by the value of the URL parameter. To test that your code works, try clicking on a particular species or navigating to /cat or /dog.
+
+Note that if you click on the “All Pets” button, the HomePage doesn’t render. We’ll be fixing that in the next task.
+
+6. We still want the HomePage to render even if no type is specified in the URL path. This means that type should be an optional URL parameter in the path that renders the HomePage component. Make type optional for the Route that renders the HomePage.
+
+Test that your code works by clicking on the “All Pets” link in the navigation menu – the homepage should still display since the new URL’s path (/) now matches the path of theRoutethat rendersHomePage`.
+
+## Using URL Parameters in Your Reasct Components
+
+7. Notice that even after you navigate to /cats, the HomePage component still renders all the pets (not just the cats). Your next task is to fix that by building on the code we’ve provided for the HomePage component. Remember, the useParams() hook can be used to give a component access to the values of the URL parameters in the current URL.
+
+In src/pages/home/index.js, import the useParams() hook from react-router-dom.
+
