@@ -76,3 +76,33 @@ Test that your code works by clicking on the “All Pets” link in the navigati
 
 In src/pages/home/index.js, import the useParams() hook from react-router-dom.
 
+8. Within the HomePage component, we’ve defined a variable, type, and set it equal to an empty string. Replace this variable declaration and instead use useParams() to get the value of the :type URL parameter. Store the value in a variable called type.
+
+To test that your code works, click on one of the species links – you should now see only pets of that type!
+
+How does this work? Inside the useEffect() hook, we’ve passed type to our API’s getPets method which fetches pets of the specified type to be rendered on the page. Now, this type comes from the URL parameter (rather than an empty string)! 
+
+## Replacing a Tags with React Router Elements
+
+9. When you tested your work for the last task by clicking on one of the species’ links in the navigation bar, you may have noticed a conspicuous page reload. Recall that this happens when we use native a tags (instead of React Router’s Link and NavLink components) to navigate to client-side routes.
+
+In the Navigation component (located in src/components/navigation/index.js), you will improve your user’s experience by replacing the a tags with React Router’s NavLink component. First, you have to import NavLink from react-router-dom.
+
+10. Next, replace the a tags in the Navigation component with NavLinks. As you give these NavLink components their props, remember that NavLink has a to prop instead of the a tag’s href attribute.
+
+Recall that NavLink also accepts an activeClassName property that will be applied to the NavLink whose to prop matches the current URL. In public/index.css, we’ve written a CSS selector for the class .nav-link-active that will darken the background of any element with that class name.
+
+Give your NavLink components an activeClassName prop and set it equal to "nav-link-active" so that the NavLink whose to prop matches the current URL will appear darker than the others.
+
+Lastly, to prevent the “All Pets” NavLink from always displaying as active, add the exact prop to it. This will ensure that the NavLink only renders as active when the current URL’s path is an exact match (so, for example, the “All Pets” NavLink will render as active when the current path is / but not when the current path is /dogs).
+
+11. Notice that if you click on an individual animal’s link, the page will refresh. Instead, we want to use React Router Links to skip that refresh. Like NavLink, the Link component has a to property in place of the a tag’s href.
+
+First, in src/pages/home/index.js, import Link from ‘react-router-dom`.
+
+Then, replace each a tag in the HomePage component with a Link component with a to prop.
+
+When you complete this task, clicking on an individual pet will no longer cause the page to reload. However, the details for that pet won’t come up just yet. Continue on to the next task group to fix this!
+
+## Adding Another Route
+
