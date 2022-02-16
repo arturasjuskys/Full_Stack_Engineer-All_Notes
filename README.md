@@ -42,14 +42,15 @@
       * [MDN: Client-Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
       * [NPM: just-validate](https://www.npmjs.com/package/just-validate)
       * [NPM: formik library](https://www.npmjs.com/package/formik)
-14. Proftolio Project: Personal Portfolio Website
-15. JavaScript Syntax, Part III
+14. Making a Website Accessible
+15. Proftolio Project: Personal Portfolio Website
+16. JavaScript Syntax, Part III
       * [Article: Learing JavaScript Designing Patterns](https://www.patterns.dev/posts/classic-design-patterns/)
       * [Article: Reducing Complexity with Guard Clauses in PHP and JavaScript](https://engineering.helpscout.com/reducing-complexity-with-guard-clauses-in-php-and-javascript-74600fd865c7)
       * [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
       * [Article: Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript)
       * [Article: Understanding Classes in JavaScript](https://www.taniarascia.com/understanding-classes-in-javascript/)
-16. JavaScript Testing
+17. JavaScript Testing
       * [Documentation: Node.js Assert](https://nodejs.org/api/assert.html)
       * [Documentation: Mocha](https://mochajs.org/#getting-started)
       * [Documentation: Chai](https://www.chaijs.com/guide/)
@@ -59,7 +60,7 @@
       * [Article: The difference between mocks and stubs, explained with JS](https://dev.to/snird/the-difference-between-mocks-and-stubs-explained-with-js-kkc)
       * [Documentation: Sinon spies](https://sinonjs.org/releases/v13/)
       * [Article: Introduction to Test Driven Development (TDD)](https://hackernoon.com/introduction-to-test-driven-development-tdd-61a13bc92d92)
-17. Async JavaScript and HTTP Requests
+18. Async JavaScript and HTTP Requests
       * [Youtube: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
       * [MDN: Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
       * [MDN: Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
@@ -86,9 +87,9 @@
       * [MDN: Graceful asynchronous programming with Promises](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
       * [MDN: Choosing the Right Approach](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Choosing_the_right_approach)
       * [MDN: An Overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
-18. Web Apps
+19. Web Apps
       * [Wappalyzer chrome extension](https://www.wappalyzer.com/)
-19. React, Part I
+20. React, Part I
       * [Youtube: The Virtual DOM](https://www.youtube.com/watch?v=jwRAdGLUarw&ab_channel=Codecademy)
       * [Article: The DOM](https://eloquentjavascript.net/14_dom.html)
       * [Article: Virtual DOM vs DOM](https://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/)
@@ -98,7 +99,7 @@
       * [React: Intro to React](https://reactjs.org/tutorial/tutorial.html)
       * [React: Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
       * [GitHub: Awesome React](https://github.com/enaqx/awesome-react)
-20. React, Pat II
+21. React, Pat II
       * [Article: ES6 in Depth: Classes](https://hacks.mozilla.org/2015/07/es6-in-depth-classes/)
       * [React: Handling Events](https://reactjs.org/docs/handling-events.html)
       * [Youtube: Setting up React Developer Tools on your computer](https://www.youtube.com/watch?v=fXRB6wgeKOo&t=1s&ab_channel=Codecademy)
@@ -115,36 +116,36 @@
       * [Youtube: React Router Tutorial](https://www.youtube.com/channel/UC61l0YiCsZOZULys-4ZR8cA/videos)
       * [Codecademy: Cheetsheet: React Router](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-react-router/cheatsheet)
       * [Tool: Mock Servive Worker](https://mswjs.io/docs/)
-21. Redux
-22. Git and GitHub, Part II
-23. Portfolio Project: Reddit Client
-24. Introduction to Back-End
-25. Build a Back-End with Express.js
-26. Back-End and Feature Testing
-27. Database Basics
-28. Working with Database
-29. Desinging Relational Databases
-30. Advanced PostgreSQL
-31. Adding a PostgreSQL Database
-32. API Development with Swagger and OpenAPI
-33. Portfolio Project: E-Commerce App (REST API)
-34. Connecting Front-End to Back-End
-35. Deploying Web Applications
-36. Web Security Fundamentals
-37. User Authentication & Authorization
-38. Data Security
-39. Common Attacks on Web Applications
-40. Fundamentals of Operating Systems
-41. DevOps Fundamentals
-42. Portfolio Project: E-Commerce App (Client)
-43. What To Expect in a Technical Interview
-44. Linear Data Structures
-45. Complex Data Structures
-46. Algorithms
-47. Search & Graph Search Algorithms
-48. Interview Skills
-49. Portfolio Project: Open-Ended PERN App
-50. Next Steps in Your Full-Stack Engineer Journey
+22. Redux
+23. Git and GitHub, Part II
+24. Portfolio Project: Reddit Client
+25. Introduction to Back-End
+26. Build a Back-End with Express.js
+27. Back-End and Feature Testing
+28. Database Basics
+29. Working with Database
+30. Desinging Relational Databases
+31. Advanced PostgreSQL
+32. Adding a PostgreSQL Database
+33. API Development with Swagger and OpenAPI
+34. Portfolio Project: E-Commerce App (REST API)
+35. Connecting Front-End to Back-End
+36. Deploying Web Applications
+37. Web Security Fundamentals
+38. User Authentication & Authorization
+39. Data Security
+40. Common Attacks on Web Applications
+41. Fundamentals of Operating Systems
+42. DevOps Fundamentals
+43. Portfolio Project: E-Commerce App (Client)
+44. What To Expect in a Technical Interview
+45. Linear Data Structures
+46. Complex Data Structures
+47. Algorithms
+48. Search & Graph Search Algorithms
+49. Interview Skills
+50. Portfolio Project: Open-Ended PERN App
+51. Next Steps in Your Full-Stack Engineer Journey
 
 <!-- Old Syllabus -->
 <!-- 2. Getting Started with Full-Stack Engineering
