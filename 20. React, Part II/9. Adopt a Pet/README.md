@@ -134,3 +134,42 @@ Remember: Switch renders only the first Route that matches the current URL, so y
 
 Test your code to ensure that the HomePage renders when the URL path matches /:type and the PetDetailsPage renders when the URL path matches /:type/:id.
 
+## Adding a Search Feature
+
+16. Nice job! Your next task will be to add a search feature to the pet adoption website. We’ve included a search bar for you in the Navigation component, but it doesn’t currently work. Your task will be to add React Router to this search bar so that when a user searches for a particular pet, they are redirected to a page showing all pets whose names match the search query.
+
+First, you’ll need to make the search bar update the URL when the user enters a new search query. We will do this imperatively using the history object.
+
+Inside the Search component (src/components/search/index.js), import the useHistory() hook. Then, inside the Search component, get the value of the history object it returns. This will allow us to control the current URL location.
+
+17. In onSearchHandler, we’ve provided the value searchQuery for you. This value will hold the query string. For example, if the user searches for “fido”, the value of searchQuery will be query=fido.
+
+Below this variable, use the history object’s .push() method to imperatively redirect the user to a path of the form /search?name=fido.
+
+Test out your code by searching for a value in the search bar. If you search for “fido” then the URL should become `/search?name=fido
+
+18. Now, back in src/App.js we want to render the SearchPage whenever the user types into the search bar and is redirected to paths like /search?name=fido.
+
+Add a Route in the Switch that renders the SearchPage component we’ve imported for you. This route’s path prop should match URLs that begin with /search.
+
+To test that your code works, try typing something into the search bar and hitting enter. The SearchPage component should be rendered.
+
+19. Now, the SearchPage component will be rendered whenever the user types in a query into the search bar. When searching for a pet, users will be redirected to URLs such as /search?name=fido, where fido is the search query.
+
+In order to render the pets that match the specified query, we will need to capture the query parameter value from ?name=fido. Remember, we can do this with the useLocation() hook.
+
+First, in src/pages/search/index.js, import React Rouer’s useLocation() hook.
+
+20. Next, inside the SearchPage component, call useLocation and get the value of the search property on the object it returns by using destructuring assignment.
+
+21. Recall that the search property on the location object corresponds to the current URL’s query string. To turn this query string into an object whose keys correspond to query parameters and whose values correspond to those parameters’ values, you should pass the search object to the [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) constructor and store the result in a constant called queryParams.
+
+React will issue a warning if you don’t wrap this call to URLSearchParams() in [React’s useMemo() hook](https://reactjs.org/docs/hooks-reference.html#usememo). Therefore, your code should look something like this:
+```JS
+const queryParams = useMemo(() => { 
+  return new URLSearchParams(search)
+}, [search]);
+```
+
+Without this, every time the SearchPagerenders, the call to the URLSearchParams constructor will create a new object and cause queryParams to change.
+
