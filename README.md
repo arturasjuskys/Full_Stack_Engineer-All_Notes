@@ -43,6 +43,22 @@
       * [NPM: just-validate](https://www.npmjs.com/package/just-validate)
       * [NPM: formik library](https://www.npmjs.com/package/formik)
 14. Making a Website Accessible
+      * [Documentation: Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/)
+      * [Tool: WebAIM - Web Accessibility In Mind](https://webaim.org/resources/contrastchecker/)
+      * [Tool: Toptal - Colorbilnd Webpage Filter](https://www.toptal.com/designers/colorfilter)
+      * [Article: Flat Design: Its Origins, Its Problems, and Why Flat 2.0 Is Better for Users](https://www.nngroup.com/articles/flat-design/)
+      * [Wikipedia: Web Accessibility Initiative](https://en.wikipedia.org/wiki/Web_Accessibility_Initiative)
+      * [Wikipedia: WAI-ARIA](https://en.wikipedia.org/wiki/WAI-ARIA)
+      * [MDN: Semantic HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+      * [Documentation: ARIA in HTML](https://www.w3.org/TR/html-aria/#allowed-aria-roles-states-and-properties)
+      * [Documentation: Using ARIA - Presentation](https://w3c.github.io/using-aria/#presentation)
+      * [MDN: Using ARIA: Roles, States, and Properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+      * [NIH: National Eye Institute: Eye Health Data and Statistics](https://www.nei.nih.gov/learn-about-eye-health/outreach-campaigns-and-resources/eye-health-data-and-statistics)
+      * [Tool: NVD Access](https://www.nvaccess.org/)
+      * [Tool: Chrome Creen Reader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
+      * [Article: What is a11y?](https://www.boia.org/blog/what-is-a11y)
+      * [Resource: The a11y Project Checklist](https://www.a11yproject.com/checklist/)
+      * [Article: CSS and JavaScript accessibility best practices](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
 15. Proftolio Project: Personal Portfolio Website
 16. JavaScript Syntax, Part III
       * [Article: Learing JavaScript Designing Patterns](https://www.patterns.dev/posts/classic-design-patterns/)
