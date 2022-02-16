@@ -137,6 +137,10 @@
         * [Tutorial: Writing Tests for React Applications Using Jest and Enzyme](https://css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme/)
         * [Documentation: Jest](https://jestjs.io/docs/tutorial-react)
         * [Documentation: Enzyme](https://enzymejs.github.io/enzyme/)
+        * [Article: How to unit test React applications with Jest and Enzyme](https://pusher.com/tutorials/react-jest-enzyme/)
+        * [Article: Advanced React Component Mocks with Jest and React Testing Library](https://ericdcobb.medium.com/advanced-react-component-mocks-with-jest-and-react-testing-library-f1ae8838400b)
+        * [Article: Testing in React: best practices, tips and tricks](https://techblog.commercetools.com/testing-in-react-best-practices-tips-and-tricks-577bb98845cd)
+      * [Article: Debugging React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)
 22. Redux
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
