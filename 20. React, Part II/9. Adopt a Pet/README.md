@@ -106,3 +106,31 @@ When you complete this task, clicking on an individual pet will no longer cause 
 
 ## Adding Another Route
 
+12. Great work! Clicking on an animal no longer causes a reload, however, we’re not seeing the individual animal’s details either! The component designed to do that is the PetDetailsPage which has already been imported into src/App.js.
+
+Back in src/App.js and above the Route for the HomePage component, add a Route to your Router that renders the PetDetailsPage component. This Route‘s path should match URLs such as /dog/123 or /cat/456. This URL path will need two URL parameters: the animal’s species and the specific id. The names for these parameters should be :type and :id respectively.
+
+To test that your code works, click on one of the pets listed on the home page. You should be redirected to the detailed view Shuri the cat!
+
+But… maybe you didn’t click on Shuri? Continue on to the next task to fix this.
+
+13. Try clicking on a few different pets and you’ll notice that you’ll keep seeing the details for Shuri the cat! Take a look at the PetDetailsPage component, found in src/pages/detail/index.js. Here, you’ll see that we’ve hard-coded a pet id.
+
+To make this page render the details for the actual pet your user has selected, use the useParams() hook to get the value of the :id URL parameter in the PetDetailsPage component.
+
+To test that your code works, refresh the page. You should see the details for the pet whose picture you clicked previously.
+
+Note: Only the pets with a real picture will have pet details. Later on, we will route users to a default page when they click on a pet with a missing picture and missing details.
+
+14. Great work! There’s one problem though: now, when you navigate to /:type/:id not only will you see the detailed view for a particular pet, but also the list of all pets that share the current pet’s species. For example, if you go to /cat/51322435 then you’ll see Shuri and all of the cats.
+
+Remember, React Router’s Router will render all of the Route components nested within it whose path matches that of the current URL. In this case, when the PetDetailsPage component is rendered for /cats/123, the HomePage component is being rendered as well. The Switch component can help us with this!
+
+Return to src/App.js and import the Switch component.
+
+15. Now, in src/App.js, wrap your Routes with a Switch component so that only one Route will render at a time. Make sure to NOT wrap the Navigation component inside the Switch component.
+
+Remember: Switch renders only the first Route that matches the current URL, so you’ll have to think about what order you should list your routes in to achieve the desired behavior.
+
+Test your code to ensure that the HomePage renders when the URL path matches /:type and the PetDetailsPage renders when the URL path matches /:type/:id.
+
