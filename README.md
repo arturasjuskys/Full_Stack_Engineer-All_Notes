@@ -132,6 +132,11 @@
       * [Youtube: React Router Tutorial](https://www.youtube.com/channel/UC61l0YiCsZOZULys-4ZR8cA/videos)
       * [Codecademy: Cheetsheet: React Router](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-react-router/cheatsheet)
       * [Tool: Mock Servive Worker](https://mswjs.io/docs/)
+      * Testing with Jest
+        * [Tutorial: Getting Started with JavaScript Testing](https://www.valentinog.com/blog/jest/)
+        * [Tutorial: Writing Tests for React Applications Using Jest and Enzyme](https://css-tricks.com/writing-tests-for-react-applications-using-jest-and-enzyme/)
+        * [Documentation: Jest](https://jestjs.io/docs/tutorial-react)
+        * [Documentation: Enzyme](https://enzymejs.github.io/enzyme/)
 22. Redux
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
