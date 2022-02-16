@@ -143,13 +143,14 @@
       * [Article: Debugging React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)
 22. Redux
       * [Redux: Rules of Redux](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#rules-of-reducers)
-      * [Redux. Core Concepts](https://redux.js.org/introduction/core-concepts)
+      * [Redux: Core Concepts](https://redux.js.org/introduction/core-concepts)
       * [Documentation: Flux: App Architecture](https://facebook.github.io/flux/docs/in-depth-overview/)
       * [MDN: DOM Events](https://developer.mozilla.org/en-US/docs/Web/Events)
       * [MDN: HTML DOM API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API)
       * [Wikipedia: Redux (JavaScript Library)](https://en.wikipedia.org/wiki/Redux_(JavaScript_library)#History)
       * [Redux: Redux Toolkit](https://redux-toolkit.js.org/)
       * [GitHub: Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
+      * [Documentation: React Redux](https://react-redux.js.org/)
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
