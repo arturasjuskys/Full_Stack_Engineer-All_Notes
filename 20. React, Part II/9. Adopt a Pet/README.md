@@ -173,3 +173,28 @@ const queryParams = useMemo(() => {
 
 Without this, every time the SearchPagerenders, the call to the URLSearchParams constructor will create a new object and cause queryParams to change.
 
+## Adding a PetDetailsNotFound Page
+
+23. Nice work! The next (and last) feature you’ll add to the application is a PetDetailsNotFound page in the event that the user clicks on a pet whose details are not yet available. Back in src/App.js this component has already been imported for you.
+
+First, in src/App.js, add a Route that renders the PetDetailsNotFound component when the current URL’s path is '/pet-details-not-found'.
+
+To test that your code works properly, navigate to /pet-details-not-found in your URL bar.
+
+24. When a user clicks on a specific animal in the HomePage, the PetDetailsPage (found in src/pages/details/index.js) will be rendered. If a pet’s details are not found the API call to getPetDetails(id) will return an error.
+
+Your task is to conditionally redirect the user to '/pet-details-not-found' whenever that happens.
+
+First, In src/pages/detail/index.js, import React Router’s Redirect component.
+
+25. Next, update the return statement of the PetDetailsPage component to render a Redirect if the getPetDetails API call returns an error. The to prop for the Redirect should cause the application to render the PetDetailsNotFound component.
+
+Test that your code works by clicking on ‘Dottie’—the second pet in the ‘All Pets’ view. Since we don’t have Dottie’s details, the API will return an error and you should be redirected to the PetDetailsNotFound page.
+
+26. It would be nice if the user could easily navigate away from the PetDetailsNotFound page to the page they were on before. We’ve provided a button for this purpose, but you will need to use React Router’s history object to imperatively redirect the user when it is clicked.
+
+First, in src/pages/petDetailsNotFound/index.js import React Router’s useHistory() hook.
+
+27. Inside the PetDetailsNotFound component, call useHistory to get access to React Router’s history object.
+
+28. 
