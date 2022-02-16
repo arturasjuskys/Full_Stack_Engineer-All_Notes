@@ -142,6 +142,7 @@
         * [Article: Testing in React: best practices, tips and tricks](https://techblog.commercetools.com/testing-in-react-best-practices-tips-and-tricks-577bb98845cd)
       * [Article: Debugging React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react)
 22. Redux
+      * [Redux: Rules of Redux](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#rules-of-reducers)
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
