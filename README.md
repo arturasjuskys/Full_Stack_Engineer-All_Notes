@@ -171,6 +171,11 @@
       * [GitHub: Actions](https://docs.github.com/en/actions)
       * [GitHub: Pages](https://pages.github.com/)
       * [Git: Pattern Format](https://git-scm.com/docs/gitignore#_pattern_format)
+      * [GitHub: Forking a Repository](https://www.youtube.com/watch?v=WEyVM7rAyjo&ab_channel=Codecademy)
+      * [Article: Git Branch Naming Convensions](https://deepsource.io/blog/git-branch-naming-conventions/)
+      * [Youtube: Exploring Workflows](https://www.youtube.com/watch?v=EwWZbyjDs9c&ab_channel=GitHubTraining%26Guides)
+      * [GitHub: List of Continuous Integration Services](https://github.com/ligurio/awesome-ci)
+      * [Article: Project Management: Issues and Projects](https://www.codecademy.com/courses/learn-git/articles/project-management-issues-and-projects)
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
 26. Build a Back-End with Express.js
