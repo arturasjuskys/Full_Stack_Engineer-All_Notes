@@ -151,6 +151,7 @@
       * [Redux: Redux Toolkit](https://redux-toolkit.js.org/)
       * [GitHub: Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
       * [Documentation: React Redux](https://react-redux.js.org/)
+      * [Documentation: Immer: Immutable Data Structure](https://immerjs.github.io/immer/)
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
