@@ -152,6 +152,8 @@
       * [GitHub: Ducks: Redux Reducer Bundles](https://github.com/erikras/ducks-modular-redux)
       * [Documentation: React Redux](https://react-redux.js.org/)
       * [Documentation: Immer: Immutable Data Structure](https://immerjs.github.io/immer/)
+      * [Article: Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
+      * [GitHub: Redux-Thunks: Motivation](https://github.com/reduxjs/redux-thunk#motivation)
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
