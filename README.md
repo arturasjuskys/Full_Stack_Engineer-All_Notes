@@ -154,6 +154,17 @@
       * [Documentation: Immer: Immutable Data Structure](https://immerjs.github.io/immer/)
       * [Article: Higher-Order Functions](https://eloquentjavascript.net/05_higher_order.html)
       * [GitHub: Redux-Thunks: Motivation](https://github.com/reduxjs/redux-thunk#motivation)
+      * [Redux: Basic Instructions](https://redux.js.org/introduction/learning-resources#basic-introductions)
+      * [Article: Exploring Redux Middleware](http://blog.krawaller.se/posts/exploring-redux-middleware/)
+      * [Youtube: Let's Learn Modern Redux!](https://www.youtube.com/watch?v=9zySeP5vH9c&t=115s&ab_channel=LearnWithJason)
+      * [Tutorial: A Todo List Example](https://react-redux.js.org/tutorials/connect)
+      * [Tutorial: Redux Essentials: Performance and Normalizing Data](https://redux.js.org/tutorials/essentials/part-6-performance-normalization)
+      * [Youtube: Live React: Hot Reloading](https://www.youtube.com/watch?v=xsSnOQynTHs)
+      * [Tutorial: Writing Test](https://redux.js.org/usage/writing-tests)
+      * [Tutorial: Redux Testing Step-By-Step](https://hackernoon.com/redux-testing-step-by-step-a-simple-methodology-for-testing-business-logic-8901670756ce)
+      * [Article: Testing Strategies for React And Redux](https://hacks.mozilla.org/2018/04/testing-strategies-for-react-and-redux/)
+      * [Tutorial: How to Test React-Redux Connected Components](https://www.robinwieruch.de/react-connected-component-test/)
+      * [Youtube: How to Test Redux](https://www.youtube.com/watch?v=h7ukDItVN_o&ab_channel=KentC.Dodds)
 23. Git and GitHub, Part II
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
