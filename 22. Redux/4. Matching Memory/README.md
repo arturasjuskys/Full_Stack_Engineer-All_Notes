@@ -31,3 +31,7 @@ There are 3 actions needed to run the game:
 * resetCards set visible to false on unmatched cards
 
 To complete this project you will add a \<Provider /> component, implement selectors, retrieve data from the store with useSelector(), and dispatch actions with the help of useDispatch(). With all of this ahead of you, explore the starting code of the application and then move on to the first task to begin implementing the matching game.
+
+![](./Capture01.PNG)
+![](./Capture02.PNG)
+![](./Capture03.PNG)
