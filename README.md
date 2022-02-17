@@ -187,6 +187,7 @@
       * [Documentaiton: Node.js: Buffer](https://nodejs.org/api/buffer.html#buffer_buffer)
       * [Wikipedia: POSIX: Portable Operating System Interface](https://en.wikipedia.org/wiki/POSIX)
       * [Node.js: What is the Event Loop?](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+      * [Article: Requiring Modules in Node.js: Everything You Need to Know](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
 26. Build a Back-End with Express.js
 27. Back-End and Feature Testing
 28. Database Basics
