@@ -184,6 +184,9 @@
       * [Documentation: Node.js: Process](https://nodejs.org/api/process.html)
       * [Wikipedia: Darwin (Operating System)](https://en.wikipedia.org/wiki/Darwin_(operating_system))
       * [Article: Callback Hell](http://callbackhell.com/)
+      * [Documentaiton: Node.js: Buffer](https://nodejs.org/api/buffer.html#buffer_buffer)
+      * [Wikipedia: POSIX: Portable Operating System Interface](https://en.wikipedia.org/wiki/POSIX)
+      * [Node.js: What is the Event Loop?](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 26. Build a Back-End with Express.js
 27. Back-End and Feature Testing
 28. Database Basics
