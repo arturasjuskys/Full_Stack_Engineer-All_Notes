@@ -166,6 +166,11 @@
       * [Tutorial: How to Test React-Redux Connected Components](https://www.robinwieruch.de/react-connected-component-test/)
       * [Youtube: How to Test Redux](https://www.youtube.com/watch?v=h7ukDItVN_o&ab_channel=KentC.Dodds)
 23. Git and GitHub, Part II
+      * [Youtube: Git Rebase](https://www.youtube.com/watch?v=85Lx8s_i4Yk)
+      * [GitHub: Webhooks](https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhooks)
+      * [GitHub: Actions](https://docs.github.com/en/actions)
+      * [GitHub: Pages](https://pages.github.com/)
+      * [Git: Pattern Format](https://git-scm.com/docs/gitignore#_pattern_format)
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
 26. Build a Back-End with Express.js
