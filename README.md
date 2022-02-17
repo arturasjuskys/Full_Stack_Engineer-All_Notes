@@ -178,6 +178,12 @@
       * [Article: Project Management: Issues and Projects](https://www.codecademy.com/courses/learn-git/articles/project-management-issues-and-projects)
 24. Portfolio Project: Reddit Client
 25. Introduction to Back-End
+      * [Documentation: Node.js: Global Object](https://nodejs.org/api/globals.html#global-objects)
+      * [Wikipedia: Heap (Data Structure)](https://en.wikipedia.org/wiki/Heap_(data_structure))
+      * [Wikipedia: Memory Management](https://en.wikipedia.org/wiki/Memory_management)
+      * [Documentation: Node.js: Process](https://nodejs.org/api/process.html)
+      * [Wikipedia: Darwin (Operating System)](https://en.wikipedia.org/wiki/Darwin_(operating_system))
+      * [Article: Callback Hell](http://callbackhell.com/)
 26. Build a Back-End with Express.js
 27. Back-End and Feature Testing
 28. Database Basics
