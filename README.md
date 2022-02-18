@@ -203,6 +203,9 @@
       * [GitHub: body-parser](https://github.com/expressjs/body-parser#body-parser)
       * [Documentation: List of Express Middlewares](https://expressjs.com/en/resources/middleware.html)
       * [MDN: CORS Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#cors)
+      * [Article: Node.js](https://eloquentjavascript.net/20_node.html)
+      * [MDN: Tutorial: Express Web Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+      * [Article: Going out to eat and understanding the basics of Express.js, Kevin Kononenko](https://www.freecodecamp.org/news/going-out-to-eat-and-understanding-the-basics-of-express-js-f034a029fb66/)
 27. Back-End and Feature Testing
 28. Database Basics
 29. Working with Database
