@@ -217,6 +217,18 @@
       * [GitHub: SuperTest](https://github.com/visionmedia/supertest#readme)
       * [Documentation: HTTP Status Codes](httpstatuses)
 28. Database Basics
+      * [Documentation: MySQL](https://www.mysql.com/)
+      * [Documentation: PostgreSQL](https://www.postgresql.org/)
+      * [Codecademy: Installing and Using PostgreSQL Locally](https://www.codecademy.com/paths/design-databases-with-postgresql/tracks/what-is-a-database/modules/using-postgresql-on-your-own-computer/articles/installing-and-using-postgresql-locally)
+      * [Documentation: Oracle DB](https://www.oracle.com/database/)
+      * [Documentation: SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+      * [Documentation: SQLite](https://www.sqlite.org/)
+      * [Codecademy: What is SQLite?](https://www.codecademy.com/courses/learn-sql/articles/what-is-sqlite)
+      * [Documentation: Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+      * [Documentation: MongoDB](https://www.mongodb.com/)
+      * [Wikipedia: Graph (Abstract Data Type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+      * [Documentation: Neo4j](https://neo4j.com/)
+      * [Documentation: Amazon Redshift](https://aws.amazon.com/redshift/)
 29. Working with Database
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
