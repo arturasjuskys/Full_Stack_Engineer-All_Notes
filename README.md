@@ -190,6 +190,11 @@
       * [Article: Requiring Modules in Node.js: Everything You Need to Know](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
 26. Build a Back-End with Express.js
       * [Documentation: Express.js](http://expressjs.com/en/4x/api.html)
+      * [MDN: HTTP Request Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+      * [Documentation: Route Parameters: WildCards](https://expressjs.com/en/guide/routing.html#route-parameters)
+      * [Wikipedia: List of HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+      * [Wikipedia: HTTP Protocols](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+      * [Wikipedia: Query Strings](https://en.wikipedia.org/wiki/Query_string)
 27. Back-End and Feature Testing
 28. Database Basics
 29. Working with Database
