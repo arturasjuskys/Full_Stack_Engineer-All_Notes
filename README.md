@@ -196,6 +196,12 @@
       * [Wikipedia: HTTP Protocols](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
       * [Wikipedia: Query Strings](https://en.wikipedia.org/wiki/Query_string)
       * [Documentation: Express: Routing](https://expressjs.com/en/guide/routing.html)
+      * [Tool: Postman](https://www.postman.com/)
+      * [Tutorial: Making API Requests with Postman](https://www.taniarascia.com/making-api-requests-postman-curl/)
+      * [Documentation: Using Middleware](http://expressjs.com/en/guide/using-middleware.html)
+      * [GitHub: morgan](https://github.com/expressjs/morgan)
+      * [GitHub: body-parser](https://github.com/expressjs/body-parser#body-parser)
+      * [Documentation: List of Express Middlewares](https://expressjs.com/en/resources/middleware.html)
 27. Back-End and Feature Testing
 28. Database Basics
 29. Working with Database
