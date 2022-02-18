@@ -202,6 +202,7 @@
       * [GitHub: morgan](https://github.com/expressjs/morgan)
       * [GitHub: body-parser](https://github.com/expressjs/body-parser#body-parser)
       * [Documentation: List of Express Middlewares](https://expressjs.com/en/resources/middleware.html)
+      * [MDN: CORS Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#cors)
 27. Back-End and Feature Testing
 28. Database Basics
 29. Working with Database
