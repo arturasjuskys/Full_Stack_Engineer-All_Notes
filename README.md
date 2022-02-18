@@ -235,6 +235,8 @@
       * [Wikipedia: Object-Relational Mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
       * [GitHub: postbird](https://github.com/Paxa/postbird)
       * [Documentation: pgAdmin](https://www.pgadmin.org/)
+      * [Tutorial: PostgreSQL Syntax](https://www.tutorialspoint.com/postgresql/postgresql_syntax.htm)
+      * [Youtube: PostgreSQL Course](https://www.youtube.com/playlist?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS)
 29. Working with Database
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
