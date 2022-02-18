@@ -230,6 +230,11 @@
       * [Documentation: Neo4j](https://neo4j.com/)
       * [Documentation: Amazon Redshift](https://aws.amazon.com/redshift/)
       * [Codecademy: SQL Commands](https://www.codecademy.com/article/sql-commands)
+      * [Wikipedia: Graphical Uuser Interface](https://en.wikipedia.org/wiki/Graphical_user_interface)
+      * [Wikipedia: Command Line interface](https://en.wikipedia.org/wiki/Command-line_interface)
+      * [Wikipedia: Object-Relational Mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
+      * [GitHub: postbird](https://github.com/Paxa/postbird)
+      * [Documentation: pgAdmin](https://www.pgadmin.org/)
 29. Working with Database
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
