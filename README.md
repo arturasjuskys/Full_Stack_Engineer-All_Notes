@@ -207,6 +207,10 @@
       * [MDN: Tutorial: Express Web Framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
       * [Article: Going out to eat and understanding the basics of Express.js, Kevin Kononenko](https://www.freecodecamp.org/news/going-out-to-eat-and-understanding-the-basics-of-express-js-f034a029fb66/)
 27. Back-End and Feature Testing
+      * [Article: Introduction to Headless Browser Testing](https://blog.logrocket.com/introduction-to-headless-browser-testing-44b82310b27c/)
+      * [Documentation: Chai Assertion Library](https://www.chaijs.com/)
+      * [Documentaion: PhantomJS](https://phantomjs.org/)
+      * [Documentation: WebdriverIO](https://webdriver.io/docs/what-is-webdriverio/)
 28. Database Basics
 29. Working with Database
 30. Desinging Relational Databases
