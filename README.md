@@ -229,6 +229,7 @@
       * [Wikipedia: Graph (Abstract Data Type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
       * [Documentation: Neo4j](https://neo4j.com/)
       * [Documentation: Amazon Redshift](https://aws.amazon.com/redshift/)
+      * [Codecademy: SQL Commands](https://www.codecademy.com/article/sql-commands)
 29. Working with Database
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
