@@ -237,6 +237,7 @@
       * [Documentation: pgAdmin](https://www.pgadmin.org/)
       * [Tutorial: PostgreSQL Syntax](https://www.tutorialspoint.com/postgresql/postgresql_syntax.htm)
       * [Youtube: PostgreSQL Course](https://www.youtube.com/playlist?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS)
+      * [Wikipedia: 1% Rule (Internet Culture)](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 29. Working with Database
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
