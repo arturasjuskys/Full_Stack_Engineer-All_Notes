@@ -189,6 +189,7 @@
       * [Node.js: What is the Event Loop?](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
       * [Article: Requiring Modules in Node.js: Everything You Need to Know](https://www.freecodecamp.org/news/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8/)
 26. Build a Back-End with Express.js
+      * [Documentation: Express.js](http://expressjs.com/en/4x/api.html)
 27. Back-End and Feature Testing
 28. Database Basics
 29. Working with Database
