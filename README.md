@@ -211,6 +211,11 @@
       * [Documentation: Chai Assertion Library](https://www.chaijs.com/)
       * [Documentaion: PhantomJS](https://phantomjs.org/)
       * [Documentation: WebdriverIO](https://webdriver.io/docs/what-is-webdriverio/)
+      * [Youtube: Test Driven Development Qoute Keeper: Walkthrough](https://www.youtube.com/watch?v=eGcPoUfm6Ow&ab_channel=Codecademy)
+      * [GitHub: JSDOM](https://github.com/jsdom/jsdom#readme)
+      * [Tutorial: API Testing Using SuperTest](https://hackernoon.com/api-testing-using-supertest-1f830ce838f1)
+      * [GitHub: SuperTest](https://github.com/visionmedia/supertest#readme)
+      * [Documentation: HTTP Status Codes](httpstatuses)
 28. Database Basics
 29. Working with Database
 30. Desinging Relational Databases
