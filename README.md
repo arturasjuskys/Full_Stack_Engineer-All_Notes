@@ -246,6 +246,9 @@
       * [Tool: SQL Fiddle](http://sqlfiddle.com/)
       * [GITHUB: SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
 30. Desinging Relational Databases
+      * [Tool: DbDiagram.io](http://dbdiagram.io/)
+      * [Tool: SQLDBM](http://sqldbm.com/home)
+      * [Tool: DB Designer](http://dbdesigner.net/)
 31. Advanced PostgreSQL
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
