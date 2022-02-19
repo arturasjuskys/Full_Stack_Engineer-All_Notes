@@ -250,6 +250,7 @@
       * [Tool: SQLDBM](http://sqldbm.com/home)
       * [Tool: DB Designer](http://dbdesigner.net/)
       * [Documentation: THe Information Schema](https://www.postgresql.org/docs/9.1/information-schema.html)
+      * [Wikipedia: Database Trigger](https://en.wikipedia.org/wiki/Database_trigger)
 31. Advanced PostgreSQL
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
