@@ -249,6 +249,7 @@
       * [Tool: DbDiagram.io](http://dbdiagram.io/)
       * [Tool: SQLDBM](http://sqldbm.com/home)
       * [Tool: DB Designer](http://dbdesigner.net/)
+      * [Documentation: THe Information Schema](https://www.postgresql.org/docs/9.1/information-schema.html)
 31. Advanced PostgreSQL
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
