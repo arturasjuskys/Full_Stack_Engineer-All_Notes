@@ -239,6 +239,12 @@
       * [Youtube: PostgreSQL Course](https://www.youtube.com/playlist?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS)
       * [Wikipedia: 1% Rule (Internet Culture)](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 29. Working with Database
+      * [Article: Pronouncing SQL: S-Q-L or Sequel?](http://patorjk.com/blog/2012/01/26/pronouncing-sql-s-q-l-or-sequel/)
+      * [Article: Understanding SQL and NoSQL Databases and Different Database Models](https://www.digitalocean.com/community/tutorials/understanding-sql-and-nosql-databases-and-different-database-models)
+      * [Article: PostgreSQL - Constraints](https://www.tutorialspoint.com/postgresql/postgresql_constraints.htm)
+      * [Youtube: SQL and Databases are MORE IMPORTANT than you think in 2018](https://www.youtube.com/watch?v=D5HRYIxcYh8&ab_channel=StefanMischook)
+      * [Tool: SQL Fiddle](http://sqlfiddle.com/)
+      * [GITHUB: SQL Style Guide](https://gist.github.com/fredbenenson/7bb92718e19138c20591)
 30. Desinging Relational Databases
 31. Advanced PostgreSQL
 32. Adding a PostgreSQL Database
