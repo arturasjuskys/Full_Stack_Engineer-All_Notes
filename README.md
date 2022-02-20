@@ -255,7 +255,13 @@
       * [Tool: Drawing Entity-Relationship Diagrams](https://dbdiagram.io/home)
       * [Tool: DB Designer](https://www.dbdesigner.net/)
       * [Tool: DB Design Tool](https://www.lucidchart.com/pages/examples/database-design-tool)
+      * [Youtube: DB Design All-In-One Tutorial 8 Hours](https://www.youtube.com/watch?v=h0j0QN2b57M&list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID&index=2&ab_channel=CalebCurry)
+      * [StackOverflow: How to implement one-to-one, one-to-many and many-to-many relationships while designing tables?](https://stackoverflow.com/questions/7296846/how-to-implement-one-to-one-one-to-many-and-many-to-many-relationships-while-de)
+      * [Tool: Lucidchart: Online Diagram Software & Visual Solution](https://www.lucidchart.com/pages/)
+      * [Documentation: DB Normalization](https://www.1keydata.com/database-normalization/)
+      * [Article: An Introduction to Database Normalization](http://mikehillyer.com/articles/an-introduction-to-database-normalization/)
 31. Advanced PostgreSQL
+      * [Documentation: PostgreeSQL](https://www.postgresql.org/docs/10/datatype.html)
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
