@@ -251,6 +251,10 @@
       * [Tool: DB Designer](http://dbdesigner.net/)
       * [Documentation: THe Information Schema](https://www.postgresql.org/docs/9.1/information-schema.html)
       * [Wikipedia: Database Trigger](https://en.wikipedia.org/wiki/Database_trigger)
+      * [Article: ERD Symbols and Notations](https://www.lucidchart.com/pages/er-diagrams#section_5)
+      * [Tool: Drawing Entity-Relationship Diagrams](https://dbdiagram.io/home)
+      * [Tool: DB Designer](https://www.dbdesigner.net/)
+      * [Tool: DB Design Tool](https://www.lucidchart.com/pages/examples/database-design-tool)
 31. Advanced PostgreSQL
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
