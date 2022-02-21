@@ -262,8 +262,9 @@
       * [Article: An Introduction to Database Normalization](http://mikehillyer.com/articles/an-introduction-to-database-normalization/)
 31. Advanced PostgreSQL
       * [Documentation: PostgreeSQL](https://www.postgresql.org/docs/10/datatype.html)
-      * [Documentation: Create Role](https://www.postgresql.org/docs/10/sql-createrole.html)
-      * [Documentation: Create Policy](https://www.postgresql.org/docs/10/sql-createpolicy.html)
+      * [Documentation: CREATE ROLE](https://www.postgresql.org/docs/10/sql-createrole.html)
+      * [Documentation: CREATE POLICY](https://www.postgresql.org/docs/10/sql-createpolicy.html)
+      * [Documentation: PostgreSQL EXPLAIN ANALYZE](https://www.postgresql.org/docs/current/sql-explain.html)
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
