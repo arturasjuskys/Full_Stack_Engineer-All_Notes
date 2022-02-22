@@ -266,6 +266,12 @@
       * [Documentation: CREATE POLICY](https://www.postgresql.org/docs/10/sql-createpolicy.html)
       * [Documentation: PostgreSQL EXPLAIN ANALYZE](https://www.postgresql.org/docs/current/sql-explain.html)
       * [Documentation: Monitoring Stats](https://www.postgresql.org/docs/12/monitoring-stats.html#PG-STAT-ALL-TABLES-VIEW)
+      * [Documentation: Performance Optimization](https://wiki.postgresql.org/wiki/Performance_Optimization)
+      * [Documentation: Performance Case Study](https://wiki.postgresql.org/wiki/Performance_Case_Study)
+      * [Article: A Performance Cheat Sheet for PostgreSQL](https://severalnines.com/database-blog/performance-cheat-sheet-postgresql)
+      * [Article: Advanced Postgres Performance Tips](https://thoughtbot.com/blog/advanced-postgres-performance-tips)
+      * [Article: Performance Tuning PostgreSQL](https://www.revsys.com/writings/postgresql-performance.html)
+      * [GitHub: DB Benchmarks List](https://github.com/benstopford/awesome-db-benchmarks)
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
