@@ -265,6 +265,7 @@
       * [Documentation: CREATE ROLE](https://www.postgresql.org/docs/10/sql-createrole.html)
       * [Documentation: CREATE POLICY](https://www.postgresql.org/docs/10/sql-createpolicy.html)
       * [Documentation: PostgreSQL EXPLAIN ANALYZE](https://www.postgresql.org/docs/current/sql-explain.html)
+      * [Documentation: Monitoring Stats](https://www.postgresql.org/docs/12/monitoring-stats.html#PG-STAT-ALL-TABLES-VIEW)
 32. Adding a PostgreSQL Database
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
