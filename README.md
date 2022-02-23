@@ -279,6 +279,17 @@
       * [Tutorial: Suggested Project Structure](https://node-postgres.com/guides/project-structure)
       * [Article: Prisma’s Data Guide](https://www.prisma.io/dataguide/types/relational/comparing-sql-query-builders-and-orms)
       * [Tool: Prisma](https://www.prisma.io/)
+      * [Article: Node.js ORMs and why you shouldn’t use them](https://blog.logrocket.com/why-you-should-avoid-orms-with-examples-in-node-js-e0baab73fa5/)
+      * Tutorial
+            * [The minimal Node.js with Babel Setup](https://www.robinwieruch.de/minimal-node-js-babel-setup/)
+            * [How to setup Express.js in Node.js](https://www.robinwieruch.de/node-js-express-tutorial/)
+            * [How to create a REST API with Express.js in Node.js](https://www.robinwieruch.de/node-express-server-rest-api/)
+            * [Setup PostgreSQL with Sequelize in Express](https://www.robinwieruch.de/postgres-express-setup-tutorial)
+            * [Creating a REST API with Express.js and PostgreSQL](https://www.robinwieruch.de/postgresql-express-node-rest-api)
+      * [Heroku Dev Center: Postgres Performance](https://devcenter.heroku.com/categories/postgres-performance)
+      * [Resource: Sample DB, wiki.postgres](https://wiki.postgresql.org/wiki/Sample_Databases)
+      * [GitHub: Sample DB](https://github.com/morenoh149/postgresDBSamples)
+      * [Article: Sample PostgreSQL DB](https://www.postgresqltutorial.com/postgresql-sample-database/)
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
 35. Connecting Front-End to Back-End
