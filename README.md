@@ -291,6 +291,12 @@
       * [GitHub: Sample DB](https://github.com/morenoh149/postgresDBSamples)
       * [Article: Sample PostgreSQL DB](https://www.postgresqltutorial.com/postgresql-sample-database/)
 33. API Development with Swagger and OpenAPI
+      * [Tool: SmarBear](https://swagger.io/tools/swagger-ui/)
+      * [Tool: Swagger](https://swagger.io/tools/)
+      * [Tool: Swagger Editor](https://swagger.io/tools/swagger-editor/)
+      * [Tool: Swagger Online Editor](https://editor.swagger.io/)
+      * [Tool: Swagger Codegen](https://swagger.io/tools/swagger-codegen/)
+      * [Tool: Swagger UI](https://swagger.io/tools/swagger-ui/)
 34. Portfolio Project: E-Commerce App (REST API)
 35. Connecting Front-End to Back-End
 36. Deploying Web Applications
