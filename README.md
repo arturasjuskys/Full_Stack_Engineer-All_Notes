@@ -273,6 +273,12 @@
       * [Article: Performance Tuning PostgreSQL](https://www.revsys.com/writings/postgresql-performance.html)
       * [GitHub: DB Benchmarks List](https://github.com/benstopford/awesome-db-benchmarks)
 32. Adding a PostgreSQL Database
+      * [Tutorial: How to set up a RESTful API with Node.js and PostgreSQL](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
+      * [Youtube: Building an API in Node.js with Express and Sequelize ORM](https://www.youtube.com/watch?v=VDgXAw7VynQ&t=3s&ab_channel=DavidTang)
+      * [Tool: Node-Postgres](https://node-postgres.com/)
+      * [Tutorial: Suggested Project Structure](https://node-postgres.com/guides/project-structure)
+      * [Article: Prisma’s Data Guide](https://www.prisma.io/dataguide/types/relational/comparing-sql-query-builders-and-orms)
+      * [Tool: Prisma](https://www.prisma.io/)
 33. API Development with Swagger and OpenAPI
 34. Portfolio Project: E-Commerce App (REST API)
 35. Connecting Front-End to Back-End
