@@ -299,6 +299,19 @@
       * [Tool: Swagger UI](https://swagger.io/tools/swagger-ui/)
 34. Portfolio Project: E-Commerce App (REST API)
 35. Connecting Front-End to Back-End
+      * Front-End Frameworks
+        * React
+        * Angular
+        * Veu
+      * Front-End Design Libraries
+        * Bootstrap
+        * Material UI
+      * Back-End
+        * Express
+      * [Setting up a Server with HTTP](https://www.codecademy.com/courses/learn-node-js/lessons/setting-up-a-server-with-http/exercises/introduction-to-http) 
+      * [Single Page Applications](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
+      * [Search Engine Optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization)
+      * [Time to interactive (TTI)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive)
 36. Deploying Web Applications
 37. Web Security Fundamentals
 38. User Authentication & Authorization
