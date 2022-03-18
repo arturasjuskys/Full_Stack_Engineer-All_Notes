@@ -321,6 +321,8 @@
       * Article: [MVC Architecture in 5 minutes: a tutorial for beginners](https://www.educative.io/blog/mvc-tutorial)
 36. Deploying Web Applications
 37. Web Security Fundamentals
+      * Article: [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+      * Tool: [Common Vulnerabilities and Exposures system](https://cve.mitre.org/)
 38. User Authentication & Authorization
 39. Data Security
 40. Common Attacks on Web Applications
