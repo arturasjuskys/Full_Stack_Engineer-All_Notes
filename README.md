@@ -300,12 +300,9 @@
 34. Portfolio Project: E-Commerce App (REST API)
 35. Connecting Front-End to Back-End
       * Front-End Frameworks
-        * React
-        * Angular
-        * Veu
+        * React, Angular, Veu
       * Front-End Design Libraries
-        * Bootstrap
-        * Material UI
+        * Bootstrap, Material UI
       * Back-End
         * Express
       * Codecademy: [Setting up a Server with HTTP](https://www.codecademy.com/courses/learn-node-js/lessons/setting-up-a-server-with-http/exercises/introduction-to-http) 
