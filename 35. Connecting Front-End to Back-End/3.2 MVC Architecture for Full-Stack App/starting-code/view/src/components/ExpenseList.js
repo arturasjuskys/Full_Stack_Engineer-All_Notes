@@ -11,6 +11,7 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 /* import user action function from utils dir
  *
  */
+import { deleteExpense } from '../utils';
 
 const ExpenseList = ({ expenses, setExpenses, setId }) => {
   const [options, setOptions] = useState();
@@ -19,6 +20,7 @@ const ExpenseList = ({ expenses, setExpenses, setId }) => {
     /* send user action to controller
      *
      */
+    await deleteExpense(_id);
     setExpenses(expenses.filter((expense) => expense.expense_id !== _id));
   };
 
