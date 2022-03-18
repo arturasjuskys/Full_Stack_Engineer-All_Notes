@@ -313,6 +313,8 @@
       * Wikipedia: [Search Engine Optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization)
       * MDN: [Time to interactive (TTI)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive)
       * Codecademy: [What is REST](https://www.codecademy.com/articles/what-is-rest)
+      * `Tool:` [`supabase`](https://supabase.io/)
+      * Wikipedia: [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier)
 36. Deploying Web Applications
 37. Web Security Fundamentals
 38. User Authentication & Authorization
