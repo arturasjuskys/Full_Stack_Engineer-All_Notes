@@ -315,6 +315,13 @@
       * Codecademy: [What is REST](https://www.codecademy.com/articles/what-is-rest)
       * `Tool:` [`supabase`](https://supabase.io/)
       * Wikipedia: [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier)
+      * Article: [Client-side vs. Server-side vs. Pre-rendering for Web Apps](https://www.toptal.com/front-end/client-side-vs-server-side-pre-rendering)
+      * Youtube: [Tech Talk: Client Side vs. Server Sider Rendering](https://www.youtube.com/watch?v=Y2spCNZDt84)
+      * Article: [Universal rendering with React](https://muthuks.medium.com/universal-rendering-with-react-60a7ca86820)
+      * Tutorial: [React & Node Tutorial - Full ECommerce in 5 Hours [2020]](https://dev.to/basir/react-node-tutorial-full-ecommerce-in-5-hours-2020-1hha)
+      * Tutorial: [Create a Simple Shopping Cart Using React and Node](https://dzone.com/articles/create-a-simple-shopping-cart-using-react-and-node)
+      * Tutorial: [How To Setup Payments With Node.js And Stripe](https://www.youtube.com/watch?v=mI_-1tbIXQI&ab_channel=WebDevSimplified)
+      * Article: [MVC Architecture in 5 minutes: a tutorial for beginners](https://www.educative.io/blog/mvc-tutorial)
 36. Deploying Web Applications
 37. Web Security Fundamentals
 38. User Authentication & Authorization
