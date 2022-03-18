@@ -48,24 +48,90 @@ router.get("/", (req, res) => {
 /**
  * Feature 7: Getting a specific starred restaurant.
  */
+router.get('/:id', (req, res) => {
+  const { id } = req.params;
 
+  // Find the restaurant with the matching id.
+  const restaurant = STARRED_RESTAURANTS.find(restaurant => restaurant.id === id);
 
+  // If the restaurant doesn't exist, let the client know.
+  if (!restaurant) {
+    res.sendStatus(404);
+
+    return;
+  };
+
+  res.json(restaurant);
+});
 
 /**
  * Feature 8: Adding to your list of starred restaurants.
  */
+router.post('/', (req, res) => {
+  const { body } = req;
+  const { id } = body;
+  const restaurant = ALL_RESTAURANTS.find(restaurant => restaurant.id === id);
 
+  if (!restaurant) {
+    res.sendStatus(404);
 
+    return;
+  };
+
+  // Generate a unique id for the new starred restaurant
+  const newId = uuidv4();
+
+  // Create a record for the new starred restaurant
+  const newStarredRestaurant = {
+    id: newId,
+    restaurantId: restaurant.id,
+    comment: null
+  };
+
+  // Push the new record into STARRED_RESTAURANTS
+  STARRED_RESTAURANTS.push(newStarredRestaurant);
+
+  res.status(200).send({
+    id: newStarredRestaurant.id,
+    comment: newStarredRestaurant.comment,
+    name: restaurant.name
+  })
+});
 
 /**
  * Feature 9: Deleting from your list of starred restaurants.
  */
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+  const newListOfStarredRestaurants = STARRED_RESTAURANTS.filter(restaurant => restaurant.id !== id);
 
+  // The user tried to unstar a restaurant that isn't currently starred
+  if (STARRED_RESTAURANTS.length === newListOfStarredRestaurants.length) {
+    res.sendStatus(404);
+
+    return;
+  };
+
+  STARRED_RESTAURANTS = newListOfStarredRestaurants;
+  res.sendStatus(200);
+});
 
 /**
  * Feature 10: Updating your comment of a starred restaurant.
  */
+router.put('/:id', (req, res) => {
+  const { id } = req. params;
+  const { newComment } = req.body;
+  const restaurant = STARRED_RESTAURANTS.find(restaurant => restaurant.id === id);
 
+  if (!restaurant) {
+    res.sendStatus(404);
 
+    return;
+  };
+
+  restaurant.comment = newComment;
+  res.sendStatus(200);
+});
 
 module.exports = router;
