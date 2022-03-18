@@ -308,10 +308,11 @@
         * Material UI
       * Back-End
         * Express
-      * [Setting up a Server with HTTP](https://www.codecademy.com/courses/learn-node-js/lessons/setting-up-a-server-with-http/exercises/introduction-to-http) 
-      * [Single Page Applications](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
-      * [Search Engine Optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization)
-      * [Time to interactive (TTI)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive)
+      * Codecademy: [Setting up a Server with HTTP](https://www.codecademy.com/courses/learn-node-js/lessons/setting-up-a-server-with-http/exercises/introduction-to-http) 
+      * MDN: [Single Page Applications](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
+      * Wikipedia: [Search Engine Optimization (SEO)](https://en.wikipedia.org/wiki/Search_engine_optimization)
+      * MDN: [Time to interactive (TTI)](https://developer.mozilla.org/en-US/docs/Glossary/Time_to_interactive)
+      * Codecademy: [What is REST](https://www.codecademy.com/articles/what-is-rest)
 36. Deploying Web Applications
 37. Web Security Fundamentals
 38. User Authentication & Authorization
