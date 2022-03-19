@@ -340,6 +340,16 @@
       * Article: [Mozilla resource on HTTP security-related headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#security)
       * Article: [nginx guide to adding the Strict-Transport-Security header](https://www.nginx.com/blog/http-strict-transport-security-hsts-and-nginx/)
       * Tool: [https://securityheaders.com/](https://securityheaders.com/)
+      * Documentation: [jwt.io](https://jwt.io/)
+      * GitHub: [jsonwebtoken GitHub repo](https://github.com/auth0/node-jsonwebtoken)
+      * GitHub: [node-jws GitHub repo](https://github.com/auth0/node-jws)
+      * GitHub: [jose GitHub repo](https://github.com/panva/jose)
+      * Article: [localStorage](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#local-storage)
+      * Documentation: [Authorization header using the Bearer schema](https://datatracker.ietf.org/doc/html/rfc6750)
+      * Documentation: [JWT signature](https://datatracker.ietf.org/doc/html/rfc7515)
+      * Tool: [jwt.io’s JWT debugger](https://jwt.io/#debugger-io)
+      * Tool: [A list of registered claims and public claims which have been registered in the IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml#claims)
+      * Documentation: [Internet Assigned Numbers Authority](https://www.iana.org/)
 39. Data Security
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
