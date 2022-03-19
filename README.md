@@ -324,6 +324,22 @@
       * Article: [OWASP Top 10](https://owasp.org/www-project-top-ten/)
       * Tool: [Common Vulnerabilities and Exposures system](https://cve.mitre.org/)
 38. User Authentication & Authorization
+      * SSH: Article: [Public Key Infrastructure](https://www.ssh.com/academy/pki)
+      * Article: [Set-Cookie: HttpOnly](https://owasp.org/www-community/HttpOnly)
+      * Article: [Set-Cookie: SameSite](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite)
+      * Article: [Set-Cookie: Secure](https://owasp.org/www-community/controls/SecureCookieAttribute)
+      * Article: [Set-Cookie: more options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie)
+      * MDN: [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+      * MDN: [sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
+      * Article: [Session hijacking attack](https://owasp.org/www-community/attacks/Session_hijacking_attack)
+      * MDN: [Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
+      * MDN: [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+      * Article: [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking)
+      * Article: [X-Content-Type-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
+      * Article: [Referrer-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy)
+      * Article: [Mozilla resource on HTTP security-related headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#security)
+      * Article: [nginx guide to adding the Strict-Transport-Security header](https://www.nginx.com/blog/http-strict-transport-security-hsts-and-nginx/)
+      * Tool: [https://securityheaders.com/](https://securityheaders.com/)
 39. Data Security
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
