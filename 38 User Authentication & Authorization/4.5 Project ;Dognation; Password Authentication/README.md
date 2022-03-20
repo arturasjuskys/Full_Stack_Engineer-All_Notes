@@ -81,4 +81,14 @@ We’re provided with some boilerplate code that we’ll be modifying and adding
     Store this value in a variable called matchedPassword.
 19. In the last if statement that checks if a user was found but the password was invalid, we’re comparing user.password to password. Replace this line of code using the matchedPassword variable.
 
+## Update Endpoints
+20. Now that our local strategy has been updated to use bcrypt, we can implement passport in our /login route.
+
+    Add middleware to authenticate a user with passport before continuing with the request.
+
+    If the user doesn’t log in successfully, redirect him to the /login endpoint.
+21. Implement Passport in the /logout request in order to logout users.
+22. Now that Passport has been implemented, the user object should be available through all requests.
+
+    Navigate to the home request, app.get("/"), in app.js and replace the null value with the user object.
 

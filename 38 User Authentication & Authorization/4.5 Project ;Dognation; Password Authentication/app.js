@@ -27,7 +27,6 @@ app.use(
     secure: true
   })
 );
-
 // Passport Config
 // 13.
 app.use(passport.initialize());
@@ -39,7 +38,9 @@ app.use(passport.session());
 app.use(require("./routes/index.routes"));
 
 app.get("/", (req, res) => {
-  const user = null || "Guest";
+  // const user = null || "Guest";
+  // 22.
+  const user = req.user || "Guest";
   res.render("home", { user });
 });
 

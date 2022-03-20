@@ -36,11 +36,15 @@ router.post("/register", async (req, res) => {
 
 // Log In User:
 router.post("/login", (req, res) => {
+  // 20.
+  passport.authenticate('local', { failureRedirect: '/login' });
   res.redirect("../");
 });
 
 // Log out user:
 router.get("/logout", (req, res) => {
+  // 21.
+  req.logout();
   res.redirect("../");
 });
 
