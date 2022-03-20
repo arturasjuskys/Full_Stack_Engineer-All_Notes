@@ -351,6 +351,10 @@
       * Tool: [A list of registered claims and public claims which have been registered in the IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml#claims)
       * Documentation: [Internet Assigned Numbers Authority](https://www.iana.org/)
       * Documentation: [Passport.js](http://www.passportjs.org/docs)
+      * Documentation: [OAuth2Server](https://oauth2-server.readthedocs.io/en/latest/api/oauth2-server.html)
+      * Documentation: [The Client ID and Secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/)
+      * Documentation: [Client Credentials](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)
+      * Tool: [curl: command line tool for transfering data with URLs](https://curl.se/)
 39. Data Security
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
