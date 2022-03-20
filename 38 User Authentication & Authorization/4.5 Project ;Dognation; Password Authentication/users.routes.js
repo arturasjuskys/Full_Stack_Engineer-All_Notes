@@ -28,17 +28,19 @@ router.post("/register", async (req, res) => {
     await users.push(newUser);
     await helper.writeJSONFile(filename, users);
 
-    res.redirect("login");
+    res.redirect("/login");
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
 });
 
 // Log In User:
-router.post("/login", (req, res) => {
+router.post("/login", 
   // 20.
-  passport.authenticate('local', { failureRedirect: '/login' });
-  res.redirect("../");
+  passport.authenticate('local', { failureRedirect: '/login' }),
+  (req, res) => {
+    res.redirect("../");
+    // res.redirect("profile");
 });
 
 // Log out user:

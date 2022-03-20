@@ -92,3 +92,5 @@ We’re provided with some boilerplate code that we’ll be modifying and adding
 
     Navigate to the home request, app.get("/"), in app.js and replace the null value with the user object.
 
+## Authentication Flow
+23. Now that authentication has been implemented attempt to register a new user, then log them in, and finally log them out!
