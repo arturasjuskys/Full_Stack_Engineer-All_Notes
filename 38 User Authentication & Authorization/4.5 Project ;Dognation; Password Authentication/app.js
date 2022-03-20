@@ -15,18 +15,22 @@ app.set("view engine", "ejs");
 require("./config/passport");
 
 // 1. Session Config
-app.use({
-  secret: 'fgfdweasd',
-  cookie: {
-    maxAge: 100000000
-  },
-  saveUninitialized: false,
-  resave: false,
-  sameSite: 'none',
-  secure: true
-});
+app.use(
+  session({
+    secret: 'fgfdweasd',
+    cookie: {
+      maxAge: 100000000
+    },
+    saveUninitialized: false,
+    resave: false,
+    sameSite: 'none',
+    secure: true
+  })
+);
 
 // Passport Config
+app.use(passport.initialize());
+app.use(passport.session());
 
 // Routes
 app.use(require("./routes/index.routes"));
