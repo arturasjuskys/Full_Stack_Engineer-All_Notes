@@ -64,3 +64,21 @@ We’re provided with some boilerplate code that we’ll be modifying and adding
 13. Now that Passport is configured, in app.js, add middleware to initialize passport in order to set up the functions to serialize/deserialize the user data from the request.
 14. Add middleware to include the session with passport.
 
+## Bcrypt
+15. Navigate to the /register endpoint in users.routes.js.
+
+    Notice how we’re storing plaintext passwords when registering new users. This a big security risk!
+
+    Use bcrypt to generate a salt and store it in a variable.
+16. Use bcrypt to hash the plaintext password that was passed in through the request object.
+
+    Store the hashed password in a variable and update the newUser object to used that password before storing it in the DB.
+17. When a user attempts to log in, Passport’s local strategy will be called and look for a user in the DB with the password that was sent. We’ll be using bcrypt to compare this password with the hashed password stored in the DB.
+
+    Navigate to passport.js and start by updating the callback function from helper.findByUsername() into an asynchronous function.
+18. Update the code within the helper.findByUsername() function body in order to compare the plaintext password that’s passed in with the user’s password in the DB, user.password.
+
+    Store this value in a variable called matchedPassword.
+19. In the last if statement that checks if a user was found but the password was invalid, we’re comparing user.password to password. Replace this line of code using the matchedPassword variable.
+
+
