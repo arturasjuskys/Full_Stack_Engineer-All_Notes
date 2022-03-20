@@ -45,3 +45,20 @@ We’re provided with some boilerplate code that we’ll be modifying and adding
 
     Return the done() callback function with arguments showing that there was NO error and a user was found.
 
+## Serialize and Deserialize Users
+8. Add logic to serialize a user in passport.js using the user.id property.
+9. Add logic to deserialize a user in passport.js, start by passing in an id and the done callback function.
+10. In order for the deserializeUser() function to attach a user to the request handler, req.user, it must first find that user in the DB.
+
+    Within the function body of deserializeUser(), make a call to helper.findById().
+
+    Pass in an the key used to find the user in the DB for the first parameter, and a function with err, and done as parameters for the second one.
+11. Within the function body of findById(), add an if statement that checks if an error is found.
+
+    In that if statement, return the done() callback with one argument showing that an error was found.
+12. At this point, we have found NO errors and have successfully retrieved a user.
+
+    At the end of the function body, return the done() callback with the correct arguments.
+
+
+

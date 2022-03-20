@@ -20,6 +20,18 @@ passport.use(new LocalStrategy(
   })
 );
 
-// Serialize a user
+// 8. Serialize a user
+passport.serializeUser((user, done) => {
+  done(null, user.id);
+});
 
-// Deserialize a user
+// 9. Deserialize a user
+passport.deserializeUser((id, done) => {
+  // 10.
+  helper.findById(id, function (err, done) {
+    // 11.
+    if (err) return done(err);
+    // 12.
+    done(null, user);
+  })
+});
