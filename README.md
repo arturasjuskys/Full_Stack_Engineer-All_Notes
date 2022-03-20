@@ -350,6 +350,7 @@
       * Tool: [jwt.io’s JWT debugger](https://jwt.io/#debugger-io)
       * Tool: [A list of registered claims and public claims which have been registered in the IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml#claims)
       * Documentation: [Internet Assigned Numbers Authority](https://www.iana.org/)
+      * Documentation: [Passport.js](http://www.passportjs.org/docs)
 39. Data Security
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
