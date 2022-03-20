@@ -355,6 +355,7 @@
       * Documentation: [The Client ID and Secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/)
       * Documentation: [Client Credentials](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)
       * Tool: [curl: command line tool for transfering data with URLs](https://curl.se/)
+      * Project: [Codecademy: GitHub OAuth Application](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-user-authentication-authorization/modules/wdcp-22-oauth-2/articles/oauth2-project)
 39. Data Security
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
