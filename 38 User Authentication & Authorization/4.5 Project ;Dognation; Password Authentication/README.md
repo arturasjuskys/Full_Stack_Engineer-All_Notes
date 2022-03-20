@@ -60,5 +60,7 @@ We’re provided with some boilerplate code that we’ll be modifying and adding
 
     At the end of the function body, return the done() callback with the correct arguments.
 
-
+## Initialize Passport
+13. Now that Passport is configured, in app.js, add middleware to initialize passport in order to set up the functions to serialize/deserialize the user data from the request.
+14. Add middleware to include the session with passport.
 

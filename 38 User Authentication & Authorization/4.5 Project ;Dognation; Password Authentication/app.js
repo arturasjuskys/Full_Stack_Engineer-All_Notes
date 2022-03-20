@@ -29,7 +29,10 @@ app.use(
 );
 
 // Passport Config
+// 13.
 app.use(passport.initialize());
+
+// 14.
 app.use(passport.session());
 
 // Routes
