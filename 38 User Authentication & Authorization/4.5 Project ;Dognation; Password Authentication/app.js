@@ -14,7 +14,17 @@ app.set("view engine", "ejs");
 // Import Passport config
 require("./config/passport");
 
-// Session Config
+// 1. Session Config
+app.use({
+  secret: 'fgfdweasd',
+  cookie: {
+    maxAge: 100000000
+  },
+  saveUninitialized: false,
+  resave: false,
+  sameSite: 'none',
+  secure: true
+});
 
 // Passport Config
 

@@ -8,3 +8,17 @@ Dognation is collaborative site for dogwalkers to share pictures of their buddie
 We were recently hired to complete a missing feature for the app! It currently doesn’t have any configuration to authenticate users. In this project, we’ll be using express-sessions, Passport’s passport-local, and bcrypt.js in order to authenticate users so they can register, login and stay, and log out of the app!
 
 We’re provided with some boilerplate code that we’ll be modifying and adding to in order to complete this. Let’s get started!
+
+## Express Session
+1. The express-session module has been provided for you in app.js.
+
+    In that file, implement a session with the following properties:
+
+    | Property | Value |
+    | - | - |
+    | secret | A random string |
+    | cookie | An object with a maxAge of your choosing |
+    | saveUninitialized | false |
+    | resave | false |
+    | sameSite | 'none' |
+    | secure | true |
