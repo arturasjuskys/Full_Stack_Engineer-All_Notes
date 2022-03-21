@@ -64,3 +64,13 @@ GRANT u_it_sonia TO g_school;
 REVOKE ALL ON students FROM PUBLIC;
 REVOKE ALL ON teachers FROM PUBLIC;
 ```
+
+## Configure Postgres Settings
+10. Next, we need to make sure the Postgres server does not accept connections from every IP address. Edit postgresql.conf to change the listen_addresses parameter so that the server only accepts connections from the school network ( localhost) and the district network (235.84.86.65).
+11. The server currently listens on port 5432, which is very dangerous because it’s the default Postgres port. Change the port parameter to 61342,
+12. Enable SSL on the server.
+13. Now that the server settings are configured, move to pg_hba.conf. Add a rule to allow members of the g_school group on the school’s local network to access the students database. SSL is not necessary. We should use SHA-256 password authentication.
+14. Add another rule using the same configuration as the last rule but change the database to teachers.
+15. Add a rule for the principal’s account, u_principal_skinner, to access all databases from any address. Use SSL and SHA-256 password authentication.
+16. Add a rule for the members of the school district in the group, g_district, to access all databases from the district’s network, 235.84.86.65. Use SSL and SHA-256 password authentication.
+17. Finally, add a default-deny rule to deny all other connections.
