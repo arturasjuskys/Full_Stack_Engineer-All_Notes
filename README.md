@@ -363,6 +363,7 @@
       * Codecademy Article: [Creating a RBAC System in a Small Business](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-data-security/modules/wdcp-22-rbac/articles/rbac-project)
 40. Common Attacks on Web Applications
       * Article: [Cross-Site Scripting (XSS) Attacks](https://owasp.org/www-community/attacks/xss/)
+      * MDN: [CORS Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#CORS)
 41. Fundamentals of Operating Systems
 42. DevOps Fundamentals
 43. Portfolio Project: E-Commerce App (Client)
