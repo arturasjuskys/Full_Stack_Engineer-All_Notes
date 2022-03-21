@@ -74,3 +74,18 @@ REVOKE ALL ON teachers FROM PUBLIC;
 15. Add a rule for the principal’s account, u_principal_skinner, to access all databases from any address. Use SSL and SHA-256 password authentication.
 16. Add a rule for the members of the school district in the group, g_district, to access all databases from the district’s network, 235.84.86.65. Use SSL and SHA-256 password authentication.
 17. Finally, add a default-deny rule to deny all other connections.
+
+## Implementing Environment Variables
+18. As you can see in demographics.js, API keys are hardcoded. Let’s change that! In .env, make two environmental variables, POSTGRES_API_KEY and DISTRICT_API_KEY, and assign them to gVvzJqrWLL6MXLzHeHERnKp and zsi9DeEcewB7MsgzPy2zxsp respectively.
+19. In demographics.js, import the dotenv npm package and use it to inject your environment variables into process.env.
+20. In demographic.js, replace the hard-coded API keys on the lines:
+    ```JS
+    const student_data = getData("student", "gVvzJqrWLL6MXLzHeHERnKp");
+    ```
+
+    and
+    ```JS
+    const teacher_data = getData("teacher", "zsi9DeEcewB7MsgzPy2zxsp");
+    ```
+
+    with the corresponding environment variables. Student data uses POSTGRES_API_KEY and teacher data uses DISTRICT_API_KEY.
