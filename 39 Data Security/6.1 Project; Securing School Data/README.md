@@ -89,3 +89,7 @@ REVOKE ALL ON teachers FROM PUBLIC;
     ```
 
     with the corresponding environment variables. Student data uses POSTGRES_API_KEY and teacher data uses DISTRICT_API_KEY.
+
+## Prevent Uploading Sensitive Information
+21. Lastly, we need to make sure the Postgres configuration files and the environment variables are not uploaded to the public repository. Using .gitignore, ignore the following files: .env, pg_hba.conf, and postgresql.conf.
+22. Double-check the files we ignored will not be uploaded to the public repository by running git status.
