@@ -357,6 +357,10 @@
       * Tool: [curl: command line tool for transfering data with URLs](https://curl.se/)
       * Project: [Codecademy: GitHub OAuth Application](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-user-authentication-authorization/modules/wdcp-22-oauth-2/articles/oauth2-project)
 39. Data Security
+      * Documentation: [Heroku SSL](https://devcenter.heroku.com/articles/ssl)
+      * Codecademy Article: [Transport Layer Security (TLS)](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-data-security/modules/wdcp-22-tls/articles/transport-layer-security-tls)
+      * Codecademy Article: [Role-Based Access Control](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-data-security/modules/wdcp-22-rbac/articles/role-based-access-control)
+      * Codecademy Article: [Creating a RBAC System in a Small Business](https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-data-security/modules/wdcp-22-rbac/articles/rbac-project)
 40. Common Attacks on Web Applications
 41. Fundamentals of Operating Systems
 42. DevOps Fundamentals
