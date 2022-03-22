@@ -2,7 +2,8 @@
 
 <form  action="/submit" method="POST">
 
-  <!-- Add CSRF token here -->
+  <!-- 10. Add CSRF token here -->
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
   
   <div class="item">
     <label for="snickerdoodle">Snickerdoodle</label>

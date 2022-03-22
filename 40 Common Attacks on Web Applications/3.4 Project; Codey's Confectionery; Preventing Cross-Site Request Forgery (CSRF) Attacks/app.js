@@ -3,7 +3,8 @@ const partials = require('express-partials');
 const path = require('path');
 const app = express();
 const cookieParser = require('cookie-parser');
-// Require csurf package here
+// 2. Require csurf package here
+const csurf = require('csurf');
 
 const PORT = 4001;
 
@@ -20,23 +21,40 @@ app.use(express.urlencoded({extended: true}));
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-// Configure csurf middleware here
+// 3. Configure csurf middleware here
+const csrfMiddleware = csurf({
+  cookie: {
+    maxAge: 3000,
+    secure: true,
+    sameSite: 'none'
+  }
+});
 
-// Use csrf middleware at application level here
+// 4. Use csrf middleware at application level here
+app.use(csrfMiddleware);
 
-// Configure error message middleware here
+// 5. Configure error message middleware here
+const errorMessage = (err, req, res, next) => {
+  // 6.
+  if (err.code === 'EBADCSRFTOKEN') {
+    res.render('csrfError')
+  } else {
+    next()
+  }
+};
 
-// Use error message middleware at application level here
+// 7. Use error message middleware at application level here
+app.use(errorMessage);
 
 app.get('/', (req, res) => {
-  // Send CSRF token to form
-  res.render('order')
+  // 8. Send CSRF token to form
+  res.render('order', { csrfToken: req.csrfToken() })
 })
 
 
 app.get('/contact', (req, res) => {
-  // Send CSRF token to form
-  res.render('contact')
+  // 9. Send CSRF token to form
+  res.render('contact', { csrfToken: req.csrfToken() })
 })
 
 app.post('/submit', (req, res) => {
