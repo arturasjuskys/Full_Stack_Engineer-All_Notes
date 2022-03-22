@@ -364,6 +364,7 @@
 40. Common Attacks on Web Applications
       * Article: [Cross-Site Scripting (XSS) Attacks](https://owasp.org/www-community/attacks/xss/)
       * MDN: [CORS Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers#CORS)
+      * Article: [Cross-Site Request Forgery](https://owasp.org/www-community/attacks/csrf)
 41. Fundamentals of Operating Systems
 42. DevOps Fundamentals
 43. Portfolio Project: E-Commerce App (Client)
