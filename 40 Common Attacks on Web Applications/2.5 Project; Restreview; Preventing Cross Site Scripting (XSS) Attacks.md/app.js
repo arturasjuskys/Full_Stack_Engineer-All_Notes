@@ -1,9 +1,10 @@
 const express = require("express");
 const session = require("express-session");
-// Require new packages below
+// 7. Require new packages below
+const helmet = require('helmet');
 
-// Add the 'check' function below:
-const { validationResult } = require("express-validator");
+// 2. Add the 'check' function below:
+const { validationResult, check } = require("express-validator");
 
 const PORT = process.env.PORT || 4001;
 const app = express();
@@ -12,7 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.set('trust proxy', 1)
-// Add helmet below
+// 7. Add helmet below
+app.use(helmet());
 
 app.use(
   session({
@@ -22,8 +24,9 @@ app.use(
     cookie: {
       maxAge: 300000000, 
       sameSite: 'none',
-      // Add the appropiate properties below:
-
+      // 6. Add the appropiate properties below:
+      httpsOnly: true,
+      secure: true
     },
   })
 );
@@ -36,8 +39,11 @@ app.get("/", (req, res) => {
 app.post(
   "/review",
   [
-    // Add the middleware to validate email and restaurant info below:
-    
+    // Add 3. the middleware to validate email and restaurant info below:
+    check('email').isEmail(),
+    check('restaurant').notEmpty().blacklist('review', '\\<\\>'),
+    check('rating').isNumeric(),
+    check('review').notEmpty().blacklist('review', '\\<\\>'),
   ],
   (req, res) => {
     var errors = validationResult(req).array();
