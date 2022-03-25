@@ -368,6 +368,7 @@
       * Tool: [ESLint](https://eslint.org/)
       * Tool: [JSLint](https://www.jslint.com/)
       * Tool: [JSHint](https://jshint.com/)
+      * Tutorial: [Youtube: Project: Securing Acme Bank](https://www.youtube.com/watch?v=d0pWvLyngHM&t=1s)
 41. Fundamentals of Operating Systems
 42. DevOps Fundamentals
 43. Portfolio Project: E-Commerce App (Client)
