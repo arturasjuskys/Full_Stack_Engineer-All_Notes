@@ -378,9 +378,7 @@
       * Codecademy Cheetsheet: [File Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-file-systems/cheatsheet)
       * Codecademy Sheatsheet: [I/O Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-io-systems/cheatsheet)
 42. DevOps Fundamentals
-      * [Jenkins](https://www.jenkins.io/)
-      * [GitHub](https://github.com/features/actions)
-      * [Gradle](https://gradle.org/)
+      * Tool: [Gradle](https://gradle.org/)
       * Tool: [Source Control Management: Git](https://git-scm.com/)
       * Tools-Environment: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/)
       * Tools-Automation: [GitHub Actions](https://github.com/features/actions), [Jenkins](https://www.jenkins.io/)
