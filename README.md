@@ -370,6 +370,12 @@
       * Tool: [JSHint](https://jshint.com/)
       * Tutorial: [Youtube: Project: Securing Acme Bank](https://www.youtube.com/watch?v=d0pWvLyngHM&t=1s)
 41. Fundamentals of Operating Systems
+      * Codecademy Cheatsheet: [Operating System Basics](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-operating-system-basics/cheatsheet)
+      * Codecademy Cheatsheet: [Processes and Threads](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-process-and-threads/cheatsheet)
+      * Codecademy Cheatsheet: [Process Scheduling](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-process-sceduling/cheatsheet)
+      * Codecademy Cheatsheet: [Synchronization + Deadlock](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-synchronization-deadlock/cheatsheet)
+      * Codecademy Cheatsheet: [Memory Management](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-memory-management/cheatsheet)
+      * Codecademy Cheetsheet: [File Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-file-systems/cheatsheet)
 42. DevOps Fundamentals
 43. Portfolio Project: E-Commerce App (Client)
 44. What To Expect in a Technical Interview
