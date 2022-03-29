@@ -378,6 +378,14 @@
       * Codecademy Cheetsheet: [File Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-file-systems/cheatsheet)
       * Codecademy Sheatsheet: [I/O Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-io-systems/cheatsheet)
 42. DevOps Fundamentals
+      * [Jenkins](https://www.jenkins.io/)
+      * [GitHub](https://github.com/features/actions)
+      * [Gradle](https://gradle.org/)
+      * Tool: [Source Control Management: Git](https://git-scm.com/)
+      * Tools-Environment: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/)
+      * Tools-Automation: [GitHub Actions](https://github.com/features/actions), [Jenkins](https://www.jenkins.io/)
+      * Tools-Infrastructure as Code: [Docker](https://www.docker.com/), [Chef](https://www.chef.io/), [Terraform](https://www.terraform.io/)
+      * Tools-Testing: [Mocha](https://www.codecademy.com/learn/learn-javascript-unit-testing/modules/learn-mocha-tdd), [Jest](https://www.codecademy.com/learn/learn-react-testing)
 43. Portfolio Project: E-Commerce App (Client)
 44. What To Expect in a Technical Interview
 45. Linear Data Structures
