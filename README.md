@@ -376,6 +376,7 @@
       * Codecademy Cheatsheet: [Synchronization + Deadlock](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-synchronization-deadlock/cheatsheet)
       * Codecademy Cheatsheet: [Memory Management](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-memory-management/cheatsheet)
       * Codecademy Cheetsheet: [File Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-file-systems/cheatsheet)
+      * Codecademy Sheatsheet: [I/O Systems](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path/tracks/fscp-22-fundamentals-of-operating-systems/modules/wdcp-22-io-systems/cheatsheet)
 42. DevOps Fundamentals
 43. Portfolio Project: E-Commerce App (Client)
 44. What To Expect in a Technical Interview
