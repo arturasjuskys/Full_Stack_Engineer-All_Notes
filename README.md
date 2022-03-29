@@ -384,6 +384,7 @@
       * Tools-Automation: [GitHub Actions](https://github.com/features/actions), [Jenkins](https://www.jenkins.io/)
       * Tools-Infrastructure as Code: [Docker](https://www.docker.com/), [Chef](https://www.chef.io/), [Terraform](https://www.terraform.io/)
       * Tools-Testing: [Mocha](https://www.codecademy.com/learn/learn-javascript-unit-testing/modules/learn-mocha-tdd), [Jest](https://www.codecademy.com/learn/learn-react-testing)
+      * Codecademy Course: [Cyber Security](https://www.codecademy.com/learn/introduction-to-cybersecurity)
 43. Portfolio Project: E-Commerce App (Client)
 44. What To Expect in a Technical Interview
 45. Linear Data Structures
