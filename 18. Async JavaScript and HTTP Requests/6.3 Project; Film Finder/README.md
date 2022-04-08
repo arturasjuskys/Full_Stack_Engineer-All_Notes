@@ -17,3 +17,30 @@ After you finish this project, feel free to challenge yourself to continue build
 
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
 
+Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
+
+## Populate Drop-down Menu with Genres
+1. Save the API key you obtained from the TMDB API to the tmdbKey variable. We’ll be making multiple calls to the TMDB API and will reference this key in the upcoming steps.
+
+    Remember not to share this API key with others!
+2. Check the [TMDB documentation](https://developers.themoviedb.org/3/getting-started/introduction) to find the API’s base URL, and save it to the tmdbBaseUrl variable.
+
+    We will append specific endpoints to this URL for each of our requests to the TMDB API.
+3. For the next several steps we’ll be working inside the getGenres() function to fetch a list of genres from the API.
+
+    Check the [TMDB documentation](https://developers.themoviedb.org/3/genres/get-movie-list) to find the “Genres” API endpoint. Create a variable called genreRequestEndpoint inside getGenres() and set it to the “Genres” API endpoint.
+4. We will use query parameters to add more specificity to our request. Still inside the getGenres() function, create a variable called requestParams and set it to a query string where the key is api_key and the value is tmdbKey.
+
+5. Let’s put together the URL where we’ll send our fetch request. Create a variable called urlToFetch and set it to a string that consists of tmdbBaseUrl, followed by genreRequestEndpoint, followed by requestParams.
+6. Turn getGenres() into an asynchronous function that returns a promise. We’ll include our fetch() request in this function, and making it asynchronous will simplify handling the promise our API call returns.
+7. We need a straightforward way to catch and handle errors if our fetch() request fails. Underneath our variable declarations inside the getGenres() function, add a try/catch statement. Leave the try block empty for now. In the catch block, log caught errors to the console.
+8. In the try block, use fetch() to send a GET request to urlToFetch. Await the response and save it to a variable called response. We need to await the resolution of our fetch() call so that we can do something with the data we get back.
+9. Still inside the try block, create a conditional statement that checks if the .ok property of the response object evaluates to a truthy value.
+10. Inside the if statement of our try block, we’ll capture the data that we need to populate our dropdown menu. To get the requested data, convert the response object to a JSON object. Await the resolution of this method and save it to a variable called jsonResponse.
+11. To make sure your code is working, log jsonResponse to the console inside our if statement. You should see a single object with a single key, genres. The value of genres is an array that lists TMDB’s genres.
+
+    Save the genres property of jsonResponse in a variable called genres. Log this variable to the console to confirm that it contains the correct information.
+12. Return genres as the very last line of the if statement inside our try block of the getGenre() function.
+
+    When you run your program should now be able to see your dropdown menu populated with genres!
+
