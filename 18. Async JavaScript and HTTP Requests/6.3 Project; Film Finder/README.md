@@ -18,9 +18,12 @@ After you finish this project, feel free to challenge yourself to continue build
 
 If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
 
-Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
+## Resources
+* Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
+* API: [themoviedb.org](https://www.themoviedb.org)
 
-## Populate Drop-down Menu with Genres
+## Exercises
+### Populate Drop-down Menu with Genres
 1. Save the API key you obtained from the TMDB API to the tmdbKey variable. We’ll be making multiple calls to the TMDB API and will reference this key in the upcoming steps.
 
     Remember not to share this API key with others!
@@ -45,7 +48,7 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
 
     When you run your program should now be able to see your dropdown menu populated with genres!
 
-## Get a Random Movie
+### Get a Random Movie
 13. For the next several steps we’ll be working inside getMovies() to fetch a list of movies based on the genre selected from the list of genres we returned in getGenres().
 
     Check the [TMDB documentation](https://developers.themoviedb.org/3/discover/movie-discover) to find the “Movie Discover” API endpoint. Below the selectedGenre variable declaration, save this endpoint to a variable called discoverMovieEndpoint.
@@ -70,7 +73,7 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
 
     After you check what movies logs to the console, remove the getMovies() function call. Otherwise, it will automatically execute every time you run your program, causing unexpected behavior later.
 
-## Get Movie Info
+### Get Movie Info
 18. For the next several steps, we’ll be working inside the getMovieInfo() function to fetch the details of a random movie from the list of movies we returned in getMovies().
 
     Modify getMovieInfo() by having it accept a parameter, movie. Then, inside the function, create a variable called movieId that is set to the id property of the movie parameter. We will be using the id property to make another call to the TMDB API.
@@ -86,7 +89,7 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
     Our response contains a single object with details about the given movie. Inside the if statement, convert this response to a JSON object. Await the resolution of this method, and save it to a variable called movieInfo.
 23. Return movieInfo as the last line of the if block.
 
-## Display Movie
+### Display Movie
 24. For this next set of tasks, we’ll be working inside the showRandomMovie() function to piece together our functionality and render a random movie’s info to the page.
 
     Turn showRandomMovie() into an asynchronous function. Then, on the last line of the function, call getMovies(), await its return, and save it to a variable called movies. Since getMovies() returns a promise, we need to await its resolution so that we can do something with its return value in upcoming steps.
