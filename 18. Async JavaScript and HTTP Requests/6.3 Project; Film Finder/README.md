@@ -68,3 +68,19 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
     Return movies as the last line of the if statement. Later on, we’ll use this list to select a random movie as a suggestion.
 
     After you check what movies logs to the console, remove the getMovies() function call. Otherwise, it will automatically execute every time you run your program, causing unexpected behavior later.
+
+## Get Movie Info
+18. For the next several steps, we’ll be working inside the getMovieInfo() function to fetch the details of a random movie from the list of movies we returned in getMovies().
+
+    Modify getMovieInfo() by having it accept a parameter, movie. Then, inside the function, create a variable called movieId that is set to the id property of the movie parameter. We will be using the id property to make another call to the TMDB API.
+19. Reference the [TMDB documentation](https://developers.themoviedb.org/3/movies/get-movie-details) to find the movie “Details” endpoint. Save it to a variable called movieEndpoint and replace {movie_id} in the endpoint with our movieId variable.
+20. Let’s create our query params and the URL where we’ll send our fetch() request. Create a variable called requestParams and set it to be a query string with one parameter with api_key set to tmdbKey.
+
+    Create a variable called urlToFetch. Set it equal to a string that consists of tmdbBaseUrl, followed by movieEndpoint, then requestParams.
+21. Turn getMovieInfo() into an asynchronous function that returns a promise. Add a try/catch block inside getMovieInfo(), after our variable declarations.
+
+    In the catch block, log any errors to the console. In the try block, use fetch() to send a GET request to urlToFetch. Await the response and save it to a variable called response.
+22. Still inside the try block, create an if statement that checks if the .ok property of the response object evaluates to a truthy value.
+
+    Our response contains a single object with details about the given movie. Inside the if statement, convert this response to a JSON object. Await the resolution of this method, and save it to a variable called movieInfo.
+23. Return movieInfo as the last line of the if block.
