@@ -44,3 +44,27 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
 
     When you run your program should now be able to see your dropdown menu populated with genres!
 
+## Get a Random Movie
+13. For the next several steps we’ll be working inside getMovies() to fetch a list of movies based on the genre selected from the list of genres we returned in getGenres().
+
+    Check the [TMDB documentation](https://developers.themoviedb.org/3/discover/movie-discover) to find the “Movie Discover” API endpoint. Below the selectedGenre variable declaration, save this endpoint to a variable called discoverMovieEndpoint.
+14. Like we did for getGenre(), we’ll create a variable called requestParams. Set it equal to a query string with two parameters. The first will be our api_key with the value, tmdbKey. The second parameter will have the with_genres key with its value set to the selectedGenre variable.
+
+    selectedGenre stores the returned value from a helper function (the getSelectedGenre() function in helpers.js) that captures the user’s selected genre.
+
+    Let’s also put together the URL where we’ll send our fetch request. Create a variable called urlToFetch. Set it to a string that consists of tmdbBaseUrl, followed by discoverMovieEndpoint, then requestParams.
+15. Turn getMovies() into an asynchronous function that returns a promise. This will simplify handling the promise that our fetch() request will return.
+
+    Add try/catch blocks inside getMovies(), after our variable declarations.
+
+    In the catch block, log any errors to the console. In the try block, use fetch() to send a GET request to urlToFetch. Await the response and save it to a variable called response.
+16. Still inside the try block, create an if statement that checks if the .ok property of the response object evaluates to a truthy value.
+
+    Inside the if statement, convert the response to a JSON object. Await the resolution of this method, and save it to a variable called jsonResponse.
+
+    Log the jsonResponse object to the console. To see your output in the console, you will need to call getMovies() after the function declaration. In the console, you’ll see a key called results that holds an array of all the movies in the first page of results.
+17. Below our jsonResponse variable declaration in the if statement, store the results property of jsonResponse in a variable called movies. Log this variable to the console to confirm that it contains the correct information.
+
+    Return movies as the last line of the if statement. Later on, we’ll use this list to select a random movie as a suggestion.
+
+    After you check what movies logs to the console, remove the getMovies() function call. Otherwise, it will automatically execute every time you run your program, causing unexpected behavior later.

@@ -1,3 +1,21 @@
+// Populate dropdown menu with all the available genres
+const populateGenreDropdown = (genres) => {
+  const select = document.getElementById('genres')
+
+  for (const genre of genres) {
+      let option = document.createElement("option");
+      option.value = genre.id;
+      option.text = genre.name;
+      select.appendChild(option);
+  }
+};
+
+// Returns the current genre selection from the dropdown menu
+const getSelectedGenre = () => {
+  const selectedGenre = document.getElementById('genres').value;
+  return selectedGenre;
+};
+
 // 1.
 const tmdbKey = '19e0c4dd3fb09aea225bc53899fe4b93';
 // 2.
@@ -22,7 +40,8 @@ const getGenres = async () => {
       const jsonResponse = await response.json();
       // 11.
       const genres = jsonResponse.genres;
-      console.log(genres);
+      // console.log(genres);
+
       // 12.
       return genres;
     }
@@ -31,10 +50,30 @@ const getGenres = async () => {
   };
 };
 
-const getMovies = () => {
+const getMovies = async () => {
   const selectedGenre = getSelectedGenre();
-
+  // 13.
+  const discoverMovieEndpoint = '/discover/movie';
+  // 14.
+  const requestParams = `?api_key=${tmdbKey}&with_genres=${selectedGenre}`;
+  const urlToFetch = tmdbBaseUrl + discoverMovieEndpoint + requestParams;
+  // 15.
+  try {
+    const response = await fetch(urlToFetch);
+    // 16.
+    if (response.ok) {
+      const jsonResponse = await response.json();
+      // console.log(jsonResponse);
+      // 17.
+      const movies = jsonResponse.results;
+      
+      return movies;
+    }
+  } catch (error) {
+    console.log(error);
+  };
 };
+getMovies();
 
 const getMovieInfo = () => {
 
@@ -47,18 +86,6 @@ const showRandomMovie = () => {
     clearCurrentMovie();
   };
 
-};
-
-// Populate dropdown menu with all the available genres
-const populateGenreDropdown = (genres) => {
-  const select = document.getElementById('genres')
-
-  for (const genre of genres) {
-      let option = document.createElement("option");
-      option.value = genre.id;
-      option.text = genre.name;
-      select.appendChild(option);
-  }
 };
 
 getGenres().then(populateGenreDropdown);
