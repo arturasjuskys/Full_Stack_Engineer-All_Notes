@@ -1,21 +1,3 @@
-// Populate dropdown menu with all the available genres
-const populateGenreDropdown = (genres) => {
-  const select = document.getElementById('genres')
-
-  for (const genre of genres) {
-      let option = document.createElement("option");
-      option.value = genre.id;
-      option.text = genre.name;
-      select.appendChild(option);
-  }
-};
-
-// Returns the current genre selection from the dropdown menu
-const getSelectedGenre = () => {
-  const selectedGenre = document.getElementById('genres').value;
-  return selectedGenre;
-};
-
 // 1.
 const tmdbKey = '19e0c4dd3fb09aea225bc53899fe4b93';
 // 2.
