@@ -60,7 +60,7 @@ const getMovies = async () => {
 const getMovieInfo = async (movie) => {
   const movieId = movie.id;
   // 19.
-  const movieEndPoint = `/movie/${movieId}`;
+  const movieEndpoint = `/movie/${movieId}`;
   // 20.
   const requestParams = `?api_key=${tmdbKey}`;
   const urlToFetch = tmdbBaseUrl + movieEndpoint + requestParams;
@@ -80,12 +80,19 @@ const getMovieInfo = async (movie) => {
 };
 
 // Gets a list of movies and ultimately displays the info of a random movie from the list
-const showRandomMovie = () => {
+const showRandomMovie = async () => {
   const movieInfo = document.getElementById('movieInfo');
   if (movieInfo.childNodes.length > 0) {
     clearCurrentMovie();
   };
-
+  // 24.
+  const movies = await getMovies();
+  // 25.
+  const randomMovie = getRandomMovie(movies);
+  // 26.
+  const info = await getMovieInfo(randomMovie);
+  // 27.
+  displayMovie(info);
 };
 
 getGenres().then(populateGenreDropdown);

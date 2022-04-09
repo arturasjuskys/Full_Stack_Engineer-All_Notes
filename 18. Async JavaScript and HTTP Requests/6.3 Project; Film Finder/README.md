@@ -2,6 +2,7 @@
 # Film Finder
 
 ![](./img/FireShot%20Capture%20041%20-%20Film%20Finder%20-%20.png)
+![](./img//FireShot%20Capture%20042%20-%20Film%20Finder%20-%20.png)
 
 You’ve caught up on your list of TV shows and movies and want to get recommendations for what to watch next, but aren’t sure where to look. In this project, you’ll use your knowledge of HTTP requests and asynchronous JavaScript to create a movie discovery app that will recommend random movies by genre. You’ll be able to choose from several genres, and like or dislike a movie to get another suggestion.
 
@@ -84,3 +85,20 @@ Youtube: [Project walkthough](https://www.youtube.com/watch?v=W6El1fjUaJI)
 
     Our response contains a single object with details about the given movie. Inside the if statement, convert this response to a JSON object. Await the resolution of this method, and save it to a variable called movieInfo.
 23. Return movieInfo as the last line of the if block.
+
+## Display Movie
+24. For this next set of tasks, we’ll be working inside the showRandomMovie() function to piece together our functionality and render a random movie’s info to the page.
+
+    Turn showRandomMovie() into an asynchronous function. Then, on the last line of the function, call getMovies(), await its return, and save it to a variable called movies. Since getMovies() returns a promise, we need to await its resolution so that we can do something with its return value in upcoming steps.
+25. Below our movies declaration, call getRandomMovie(), passing movies as the argument. Store the returned value in a variable called randomMovie.
+26. Below our randomMovie declaration, call getMovieInfo(), passing randomMovie as the argument. Await its return and save it to a variable called info.
+27. Finally, as the last line of the showRandomMovie() function, call displayMovie(), passing info as the argument.
+
+    Run your program to see movie suggestions. Like or dislike each movie to be shown another random suggestion. Change genres to get different suggestions based on your interests.
+28. Congratulations! You’ve finished building the Film Finder project! If you’re looking for additional ways to challenge yourself, consider the following:
+
+    * Checkout the displayMovie() function in helpers.js to use the DOM to rearrange the layout of information on the page. Try displaying different types of information like cast, or release date.
+    * Create a way to store a user’s liked and disliked movies and display this list on the page.
+    * Our API call inside of getMovies() returns many pages of results, but currently our program only randomizes results from the first page. To randomize our results even more, update getMovies() so that movies contains results from a random page instead of the first page.
+
+
