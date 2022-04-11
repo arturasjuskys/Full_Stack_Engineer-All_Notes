@@ -387,6 +387,12 @@
       * Codecademy Course: [Cyber Security](https://www.codecademy.com/learn/introduction-to-cybersecurity)
 43. Portfolio Project: E-Commerce App (Client)
 44. What To Expect in a Technical Interview
+      * Interview Questions: [7 HTML interview questions to practice](https://www.codecademy.com/resources/blog/html-interview-questions/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=technical_interview_guide_blog)
+      * Interview Questions: [7 top CSS interview questions to practice](https://www.codecademy.com/resources/blog/css-interview-questions/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=technical_interview_guide_blog)
+      * Interview Questions: [7 JavaScript interview questions to practice](https://www.codecademy.com/resources/blog/javascript-interview-questions/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=technical_interview_guide_blog)
+      * Teory/Tutorials: [JavaScript Tutorials](https://careerkarma.com/blog/javascript/)
+      * Article: [Technical Interview Tips](https://www.glassdoor.com/blog/technical-interview-tips/)
+      * Article: [The Essential Guide to Take Home Coding Challenges](https://www.freecodecamp.org/news/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7/)
 45. Linear Data Structures
 46. Complex Data Structures
 47. Algorithms
