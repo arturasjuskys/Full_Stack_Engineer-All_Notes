@@ -397,11 +397,18 @@
 45. Linear Data Structures
       * Visualizer: [Singly-Linked List](https://visualgo.net/en/list?slide=6)
       * Youtube: [Data Structures: Linked Lists](https://www.youtube.com/watch?v=njTh_OwMljA)
-      * GitHub: [Cheatsheet](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/linked-list)
+      * GitHub: [Cheatsheet: Singly-Linked LIsts](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/linked-list)
       * Code Challenge: [Beginner - Middle of a Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
       * Code Challenge: [Intermediate - Reverse a Singly-Linked List](https://www.codecademy.com/code-challenges/code-challenge-reverse-a-singly-linked-list-javascript)
       * Code Challenge: [Intermediate - Swap Elements in a Linked List](https://www.codecademy.com/code-challenges/code-challenge-swap-elements-in-a-linked-list-javascript)
       * Code Challenge: [More Practice Problems](https://leetcode.com/problemset/all/?search=singly%20linked%20list)
+      * Visualizer: [Doubly-Linked List](https://visualgo.net/en/list?slide=6)
+      * Youtube:[Linked List Data Structure in Javascript](https://www.youtube.com/watch?v=ChWWEncl76Y)
+      * GitHub: [Cheatsheet: Doubly-Linked List](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/doubly-linked-list)
+      * Code Challenges: [Intermediate - Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+      * Code Challenges: [Intermediate - Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+      * Code Challenges: [Intermediate - Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+      * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=linked%20list)
 46. Complex Data Structures
 47. Algorithms
 48. Search & Graph Search Algorithms
