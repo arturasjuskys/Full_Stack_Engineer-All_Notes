@@ -393,6 +393,7 @@
       * Teory/Tutorials: [JavaScript Tutorials](https://careerkarma.com/blog/javascript/)
       * Article: [Technical Interview Tips](https://www.glassdoor.com/blog/technical-interview-tips/)
       * Article: [The Essential Guide to Take Home Coding Challenges](https://www.freecodecamp.org/news/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7/)
+      * Wikipedia: [Node (Computer Science)](https://en.wikipedia.org/wiki/Node_(computer_science)#:~:text=A%20node%20is%20a%20basic,are%20often%20implemented%20by%20pointers)
 45. Linear Data Structures
 46. Complex Data Structures
 47. Algorithms
