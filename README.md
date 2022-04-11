@@ -395,6 +395,13 @@
       * Article: [The Essential Guide to Take Home Coding Challenges](https://www.freecodecamp.org/news/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7/)
       * Wikipedia: [Node (Computer Science)](https://en.wikipedia.org/wiki/Node_(computer_science)#:~:text=A%20node%20is%20a%20basic,are%20often%20implemented%20by%20pointers)
 45. Linear Data Structures
+      * Visualizer: [Singly-Linked List](https://visualgo.net/en/list?slide=6)
+      * Youtube: [Data Structures: Linked Lists](https://www.youtube.com/watch?v=njTh_OwMljA)
+      * GitHub: [Cheatsheet](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/linked-list)
+      * Code Challenge: [Beginner - Middle of a Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+      * Code Challenge: [Intermediate - Reverse a Singly-Linked List](https://www.codecademy.com/code-challenges/code-challenge-reverse-a-singly-linked-list-javascript)
+      * Code Challenge: [Intermediate - Swap Elements in a Linked List](https://www.codecademy.com/code-challenges/code-challenge-swap-elements-in-a-linked-list-javascript)
+      * Code Challenge: [More Practice Problems](https://leetcode.com/problemset/all/?search=singly%20linked%20list)
 46. Complex Data Structures
 47. Algorithms
 48. Search & Graph Search Algorithms
