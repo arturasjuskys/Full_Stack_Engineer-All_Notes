@@ -434,6 +434,10 @@
         * Visualizer: [Hash Maps](https://visualgo.net/en/hashtable?slide=1)
         * Youtube: [Hash Maps](https://www.youtube.com/watch?v=QuFPIZj55hU&feature=emb_title)
         * Cheatsheet: [Hash Maps](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/hash-table)
+      * Trees
+        * Article: [Wikipedia Tree Data Structure](https://en.wikipedia.org/wiki/Tree_(data_structure))
+        * Youtube: [Tree Data Structure Overview](https://www.youtube.com/watch?v=oSWTXtMglKE)
+        * Cheatsheet: [Trees](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree)
 47. Algorithms
 48. Search & Graph Search Algorithms
 49. Interview Skills
