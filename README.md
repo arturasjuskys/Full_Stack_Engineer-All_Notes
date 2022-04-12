@@ -419,6 +419,15 @@
         * Code Challenges: [Beginner - Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets)
         * Code Challenges: [Intermediate - Reveal Cards in Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order)
         * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=queue)
+      * Stacks:
+        * Visualizer: [Stacks](https://visualgo.net/en/list?slide=4)
+        * Video: [Stacks and Queues](https://www.youtube.com/watch?v=1AJ4ldcH2t4)
+        * Cheatsheet: [Stacks](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/stack)
+        * Code Challenges: [Beginner - Baseball Game](https://leetcode.com/problems/baseball-game)
+        * Code Challenges: [Beginner - Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+        * Code Challenges: [Intermediate - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+        * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=stack)
+
 46. Complex Data Structures
 47. Algorithms
 48. Search & Graph Search Algorithms
