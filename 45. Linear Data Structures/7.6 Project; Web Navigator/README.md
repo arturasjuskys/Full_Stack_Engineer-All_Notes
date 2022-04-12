@@ -98,3 +98,58 @@ At every operation other than quitting, we display information about the current
     * append nextInfo to instructions separated by a comma, and
     * enable forward navigation Otherwise, we want to disable forward navigation
 13. Finally, we want to enable the user to quit the program by adding quitInfo to instructions and display the final format of instructions to the user.
+
+## User Interface Part 2
+14. The next section of the user interface focuses on prompting the user for input and processing user input while inside the while loop. The code to prompt for user input is as follows:
+    ```JS
+    const response = prompt('How are you today?');
+    ```
+    Perform a similar action using question as the prompt and save the response in a local variable, answer.
+15. Since we accept inputs in both lower and upper cases, we want to simplify our input processing by lower-casing our response but not override the original response. Define a local variable lowerCaseAnswer and initialize it to the lower-cased conversion of answer
+16. We are left with the task of processing user input that has been lower-cased. Our choices are: b, n, q or a url string. Write a conditional statement to process only the url string and display a new page based on the original typed url.
+17. Write corresponding else if statements to process navigating back a page and forward a page.. Remember to check if we can actually navigate forward or backward utilizing the showNext and showBack statuses in our else logic.
+18. Add additional checks if the user tries to go forward or backward a page even when the option is not available to them. Provide a user-friendly message to let the user know that they can’t proceed with that option.
+19. Before we finish coding, we also need to evaluate the user’s desire to quit the program. Write an else if statement to process this input. Consider how we should terminate the while loop.
+20. Remember to save your code at this juncture. Lastly, in the terminal, execute node script.js and test it out. Congratulations for a job well done!
+
+```
+DEFAULT:
+Current page = Home Page
+Back page = null
+Next page = null
+
+Enter a url, Q|q for quit.
+Where would you like to go today? google
+
+NEW:
+Current page = google
+Back page = Home Page
+Next page = null
+
+Enter a url, B|b for back page, Q|q for quit.
+Where would you like to go today? youtube
+
+NEW:
+Current page = youtube
+Back page = google
+Next page = null
+
+Enter a url, B|b for back page, Q|q for quit.
+Where would you like to go today? b
+
+BACK:
+Current page = google
+Back page = Home Page
+Next page = youtube
+
+Enter a url, B|b for back page, N|n for next page, Q|q for quit.
+Where would you like to go today? b
+
+BACK:
+Current page = Home Page
+Back page = null
+Next page = google
+
+Enter a url, N|n for next page, Q|q for quit.
+Where would you like to go today?
+```

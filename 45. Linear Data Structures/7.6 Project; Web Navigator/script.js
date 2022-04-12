@@ -85,8 +85,25 @@ while (finish === false) {
   // 13
   instructions = `${instructions}, ${quitInfo}.`;
   console.log(instructions);
+  // 14.
+  const answer = prompt(question);
+  // 15.
+  const lowerCaseAnswer = answer.toLowerCase();
+  // 16.
+  if ((lowerCaseAnswer !== 'n') && (lowerCaseAnswer !== 'b') && (lowerCaseAnswer !== 'q')) {
+    newPage(answer);
+    // 17.
+  } else if ((showNext === true) && (lowerCaseAnswer === 'n')) {
+    nextPage();
+  } else if ((showBack === true) && (lowerCaseAnswer === 'b')) {
+    backPage();
+    // 18.
+  } else if (lowerCaseAnswer === 'b') {
+    console.log('Cannot go back a page. Stack is empty.');
+  } else if (lowerCaseAnswer === 'n') {
+    console.log('Cannot go to hte next page. Stack is empty.');
+    // 19.
+  } else if (lowerCaseAnswer === 'q') {
+    finish = true;
+  };
 };
-
-// ------------------------------
-// User Interface Part 2
-// ------------------------------
