@@ -1,0 +1,14 @@
+{
+  "name": "web-navigator",
+  "version": "1.0.0",
+  "description": "This project, Web Navigator, simulates the navigational operations of a web browser such as :\r * opening a new web page,\r * navigating back a page and\r * going forward a page. We will use the Stack class to maintain the history of visited pages with a backPages stack and a nextPages stack.",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

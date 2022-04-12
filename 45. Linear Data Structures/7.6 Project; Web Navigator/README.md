@@ -52,3 +52,49 @@ At every operation other than quitting, we display information about the current
     * push the current page on the backPages stack as we will no longer display it,
     * remove the top item from the nextPages stack and set it as the current page, and
     * display the new current page using the helper function we created in Task 1 and pass an argument to it to denote the next operation..
+
+## User Interface Part 1
+7. Our user interface will be text-driven from the bash terminal. It will look something like this at the beginning of a program:
+    ```
+    DEFAULT:
+    Current page = Start Page
+    Back page =  null
+    Next page =  null
+
+    Enter a url, Q|q for quit.
+    Where would you like to go today?
+    ```
+
+    And something like this in the middle of the program where we have a history of back pages and forward pages:
+    ```
+    BACK:
+    Current page = amazon.com
+    Back page =  Start Page
+    Next page =  yahoo.com
+
+    Enter a url, B|b for back page, N|n for next page, Q|q for quit.
+    Where would you like to go today?
+    ```
+
+    The displayed text varies depending on the state of the navigation process. Like on a web browser, if there is a history of visited pages indicated by a non-empty backPages stack, the Back button will be enabled; if there is no history, as indicated by an empty backPages stack, it will be disabled.. The Next button behaves similarly.
+
+    Define a global variable, finish, that controls the termination of a while loop that takes in user input. We will implement the while loop later in Task 10. Initialize finish to false.
+8. We want to control when the back navigation and front navigation operations are enabled. Define two global variables, showBack and showNext and initialize them to false.
+9. When the program is started, it shows a default page. Call the helper function that does this with an appropriate argument.
+10. The majority of the code that controls the processing of user input is executed in a while loop. Define a while loop that utilizes the finish global variable as a condition.
+11. The processes inside the while loop are broken up into 3 parts:
+    * display the instructions to the user
+    * prompt the user for input
+    * process user input
+
+    We have declared strings that contain user input instructions called baseInfo, backInfo, nextInfo and quitInfo that will be referenced in the while loop.
+
+    * Define a local variable inside the while loop called instructions and initialize it to baseInfo.
+    * If backPages isn’t empty, we want to
+        * append backInfo to instructions separated by a comma
+        * enable backward navigation using showBack
+    * Otherwise, we want to disable backward navigation
+12. Parallel to Task 11, this task will implement a similar logic to the nextPages stack. If nextPages has content, we want to
+    * append nextInfo to instructions separated by a comma, and
+    * enable forward navigation Otherwise, we want to disable forward navigation
+13. Finally, we want to enable the user to quit the program by adding quitInfo to instructions and display the final format of instructions to the user.
