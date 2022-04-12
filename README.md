@@ -427,7 +427,6 @@
         * Code Challenges: [Beginner - Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
         * Code Challenges: [Intermediate - Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
         * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=stack)
-
 46. Complex Data Structures
       * Wikipedia: [Modulo operation](https://en.wikipedia.org/wiki/Modulo_operation)
       * Hash Maps
