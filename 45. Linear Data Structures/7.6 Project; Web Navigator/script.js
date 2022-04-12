@@ -4,6 +4,12 @@ const prompt = require('prompt-sync')();
 // Initialization
 // ------------------------------
 
+// 1.
+const backPages = new Stack();
+const nextPages = new Stack();
+// 2.
+let currentPage = 'Home Page';
+
 // ------------------------------
 // Helper Functions
 // ------------------------------

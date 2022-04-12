@@ -20,3 +20,10 @@ User input is required to:
 The option to navigate forward or backward is conditional depending on user input and the state of the stacks. We will explain this in more detail in the relevant tasks.
 
 At every operation other than quitting, we display information about the current page and the top element of the two stacks
+
+## Initialization
+1. The Web Navigator needs two stacks to maintain the history of visited pages.
+
+    * Create a const backPages variable and assign it to a new Stack class to model the history of visited pages
+    * Create a const nextPages variable and assign it to a new Stack class to model the pages that get moved when an old page from the backPages stack is revisited.
+2. Set the default page to be anything you like. Assign this to a global variable currentPage.
