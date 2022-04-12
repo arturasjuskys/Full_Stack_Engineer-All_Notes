@@ -14,6 +14,37 @@ let currentPage = 'Home Page';
 // Helper Functions
 // ------------------------------
 
+// 3.
+showCurrentPage = action => {
+  console.log(`\n${action}`);
+  console.log(`Current page = ${currentPage}`);
+  console.log(`Back page = ${backPages.peek()}`);
+  console.log(`Next page = ${nextPages.peek()}`);
+};
+// 4.
+newPage = page => {
+  backPages.push(currentPage);
+  currentPage = page;
+
+  // Clear the nextPages stack
+  while(!nextPages.isEmpty) {
+    nextPages.pop();
+  };
+  showCurrentPage('NEW: ');
+};
+// 5.
+backPage = () => {
+  nextPages.push(currentPage);
+  currentPage = backPages.pop();
+  showCurrentPage('BACK: ');
+};
+// 6.
+nextPage = () => {
+  backPages.push(currentPage);
+  currentPage = nextPage.pop();
+  showCurrentPage('NEXT: ');
+};
+
 /*
  * The following strings are used to prompt the user
  */
