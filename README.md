@@ -454,14 +454,22 @@
         * Code Challenges: [Intermediate - Clone Graph](https://leetcode.com/problems/clone-graph/)
         * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=graph)
 47. Algorithms
-      * Youtube: [Algorithms: Recursion CAllback](https://www.youtube.com/watch?v=Qm4axEzqw0k)
+      * Youtube: [Algorithms: Recursion Callback](https://www.youtube.com/watch?v=Qm4axEzqw0k)
       * Recursion
         * Code Challenges: [Beginner - Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
         * Code Challenges: [Beginner - Power of Three](https://leetcode.com/problems/power-of-three/)
         * Code Challenges: [Advanced - Egg Dropper](https://www.codecademy.com/code-challenges/code-challenge-egg-dropper-javascript)
-      * Youtube: [Asymptotic Notation](https://www.youtube.com/watch?v=ZPLaE0HOR3M)
-      * Youtube: [Big Theta Noattion](https://www.youtube.com/watch?v=LkjqqGg0VN0)
-      * Youtube: [Big Omega and O](https://www.youtube.com/watch?v=EkDbukKyipU)
+        * Youtube: [Asymptotic Notation](https://www.youtube.com/watch?v=ZPLaE0HOR3M)
+        * Youtube: [Big Theta Noattion](https://www.youtube.com/watch?v=LkjqqGg0VN0)
+        * Youtube: [Big Omega and O](https://www.youtube.com/watch?v=EkDbukKyipU)
+      * Asymptotic Notation
+        * Article: [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+        * Code Challenges: [Intermediate - Calculate the Mean and Mode](https://www.codecademy.com/code-challenges/code-challenge-calculate-the-mean-and-mode-javascript)
+        * Code Challenges: [Intermediate - Stairmaster](https://www.codecademy.com/code-challenges/code-challenge-stairmaster-javascript)
+        * Code Challenges: [Intermediate - Maximize Stock Trading Profit](https://www.codecademy.com/code-challenges/code-challenge-maximize-stock-trading-profit-javascript)
+      * Wikipedia: [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+      * Wikipedia: [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
+      * Wikipedia: [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
