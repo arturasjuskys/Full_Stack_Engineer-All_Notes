@@ -445,6 +445,14 @@
         * Code Challenges: [Intermediate - Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
         * Code Challenges: [Advanced - Max Product Finder](https://www.codecademy.com/code-challenges/code-challenge-max-product-finder-javascript)
         * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=heap)
+      * Graphs
+        * Visualizer: [Graphs](https://visualgo.net/en/graphds?slide=1)
+        * Youtube: [Introduction to Graph Theory](https://www.youtube.com/watch?v=5hPfm_uqXmw)
+        * GitHub: [Graph JS Practice](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/graph)
+        * Code Challenges: [Beginner - Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
+        * Code Challenges: [Beginner - Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
+        * Code Challenges: [Intermediate - Clone Graph](https://leetcode.com/problems/clone-graph/)
+        * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=graph)
 47. Algorithms
 48. Search & Graph Search Algorithms
 49. Interview Skills
