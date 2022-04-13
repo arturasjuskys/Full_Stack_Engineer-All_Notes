@@ -476,6 +476,12 @@
         * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
       * Wikipedia: [Timsort](https://en.wikipedia.org/wiki/Timsort)
       * Tool: [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
+      * Merge Sort
+        * Interactive: [Merge Sort](https://visualgo.net/en/sorting?slide=11)
+        * Code Challenges: [Intermediate - Top Score Sorter](https://www.codecademy.com/code-challenges/code-challenge-top-score-sorter-javascript)
+        * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
+      * Youtube: [Algorithms: Quicksort Partition](https://www.youtube.com/watch?v=-oXfZUyA7Po)
+      * Youtube: [Algorithms: Quicksort Runtime](https://www.youtube.com/watch?v=BT7gWd8zRtA)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
