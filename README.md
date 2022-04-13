@@ -459,6 +459,9 @@
         * Code Challenges: [Beginner - Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
         * Code Challenges: [Beginner - Power of Three](https://leetcode.com/problems/power-of-three/)
         * Code Challenges: [Advanced - Egg Dropper](https://www.codecademy.com/code-challenges/code-challenge-egg-dropper-javascript)
+      * Youtube: [Asymptotic Notation](https://www.youtube.com/watch?v=ZPLaE0HOR3M)
+      * Youtube: [Big Theta Noattion](https://www.youtube.com/watch?v=LkjqqGg0VN0)
+      * Youtube: [Big Omega and O](https://www.youtube.com/watch?v=EkDbukKyipU)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
