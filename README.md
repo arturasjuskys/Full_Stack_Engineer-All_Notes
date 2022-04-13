@@ -455,6 +455,10 @@
         * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=graph)
 47. Algorithms
       * Youtube: [Algorithms: Recursion CAllback](https://www.youtube.com/watch?v=Qm4axEzqw0k)
+      * Recursion
+        * Code Challenges: [Beginner - Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+        * Code Challenges: [Beginner - Power of Three](https://leetcode.com/problems/power-of-three/)
+        * Code Challenges: [Advanced - Egg Dropper](https://www.codecademy.com/code-challenges/code-challenge-egg-dropper-javascript)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
