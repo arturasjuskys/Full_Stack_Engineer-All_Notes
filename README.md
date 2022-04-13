@@ -470,6 +470,10 @@
       * Wikipedia: [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
       * Wikipedia: [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
       * Wikipedia: [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+      * Bubble Sort
+        * Article: [Interactive: Bubble Sort](https://visualgo.net/en/sorting?slide=7)
+        * Code Challenges: [Intermediate - Top Score Sorter](https://www.codecademy.com/code-challenges/code-challenge-top-score-sorter-javascript)
+        * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
