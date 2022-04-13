@@ -437,6 +437,14 @@
         * Article: [Wikipedia Tree Data Structure](https://en.wikipedia.org/wiki/Tree_(data_structure))
         * Youtube: [Tree Data Structure Overview](https://www.youtube.com/watch?v=oSWTXtMglKE)
         * Cheatsheet: [Trees](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/tree)
+      * Heaps
+        * Visualizer: [Heaps](https://visualgo.net/en/heap?slide=1)
+        * Youtube: [Heap Data Structure Overview](https://www.youtube.com/watch?v=t0Cq6tVNRBA)
+        * Cheatsheet: [Heaps](https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/heap)
+        * Code Challenges: [Beginner - Last Stone Weight](https://leetcode.com/problems/last-stone-weight)
+        * Code Challenges: [Intermediate - Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+        * Code Challenges: [Advanced - Max Product Finder](https://www.codecademy.com/code-challenges/code-challenge-max-product-finder-javascript)
+        * Code Challenges: [More Practice Problems](https://leetcode.com/problemset/all/?search=heap)
 47. Algorithms
 48. Search & Graph Search Algorithms
 49. Interview Skills
