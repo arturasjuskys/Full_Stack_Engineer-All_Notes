@@ -474,6 +474,7 @@
         * Article: [Interactive: Bubble Sort](https://visualgo.net/en/sorting?slide=7)
         * Code Challenges: [Intermediate - Top Score Sorter](https://www.codecademy.com/code-challenges/code-challenge-top-score-sorter-javascript)
         * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
+      * Wikipedia: [Timsort](https://en.wikipedia.org/wiki/Timsort)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
