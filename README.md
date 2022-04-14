@@ -482,6 +482,10 @@
         * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
       * Youtube: [Algorithms: Quicksort Partition](https://www.youtube.com/watch?v=-oXfZUyA7Po)
       * Youtube: [Algorithms: Quicksort Runtime](https://www.youtube.com/watch?v=BT7gWd8zRtA)
+      * Quicksort
+        * Interactive: [Quicksort](https://visualgo.net/en/sorting?slide=12)
+        * Code Challenges: [Intermediate - Top Score Sorter](https://www.codecademy.com/code-challenges/code-challenge-top-score-sorter-javascript)
+        * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
 48. Search & Graph Search Algorithms
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
