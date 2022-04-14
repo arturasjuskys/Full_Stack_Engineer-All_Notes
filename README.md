@@ -504,6 +504,14 @@
         * Code Challenges: [Beginner - Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
         * Code Challenges: [Intermediate - Clone Graph](https://leetcode.com/problems/clone-graph/)
 49. Interview Skills
+      * Technical Interviews: Whiteboarding
+        * Youtube: [Technical Interview Whiteboarding: Introduction](https://www.youtube.com/watch?v=SgAVxPV9JVk)
+        * Youtube: [Technical Interview Whiteboarding: Clarify](https://www.youtube.com/watch?v=xzYgM0eIauA)
+        * Youtube: [Technical Interview Whiteboarding: Inputs and Edge Cases](https://www.youtube.com/watch?v=tccfJmGM0XI)
+        * Youtube: [Technical Interview Whiteboarding: Outline](https://www.youtube.com/watch?v=yt-YB_9ZHUE)
+        * Youtube: [Technical Interview Whiteboarding: Coding](https://www.youtube.com/watch?v=hwoGhge9y5I)
+        * Youtube: [Technical Interview Whiteboarding: Testing](https://www.youtube.com/watch?v=qZpIz_lmp4Q)
+        * Youtube: [Technical Interview Whiteboarding: Analyze the Solution](https://www.youtube.com/watch?v=bn5ORboA-6Y)
 50. Portfolio Project: Open-Ended PERN App
 51. Next Steps in Your Full-Stack Engineer Journey
 
