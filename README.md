@@ -512,6 +512,13 @@
         * Youtube: [Technical Interview Whiteboarding: Coding](https://www.youtube.com/watch?v=hwoGhge9y5I)
         * Youtube: [Technical Interview Whiteboarding: Testing](https://www.youtube.com/watch?v=qZpIz_lmp4Q)
         * Youtube: [Technical Interview Whiteboarding: Analyze the Solution](https://www.youtube.com/watch?v=bn5ORboA-6Y)
+      * Codecademy Article: [How To Master The Art of the Tech Industry Job Interview](https://www.codecademy.com/resources/blog/technical-and-behavioral-interview-tips/)
+      * Article: [How to Secceed in a Behavioral Interview](https://blog.pramp.com/how-to-succeed-in-a-behavioral-interview-796af6233dd1)
+      * Resource: [Daily Coding Problem](https://www.dailycodingproblem.com/)
+      * Resource: [LeetCode](https://leetcode.com/explore/)
+      * Youtube: [Google Coding Interview Question and Answer #1: First Recurring Character](https://www.youtube.com/watch?v=GJdiM-muYqc)
+      * Youtube: [Facebook Coding Interview Question - How Many Ways to Decode This Message?](https://www.youtube.com/watch?v=qli-JCrSwuk)
+      * Youtube: [Amazon Coding Interview Question - Recursive Staircase Problem](https://www.youtube.com/watch?v=5o-kdjv7FD0)
 50. Portfolio Project: Open-Ended PERN App
 51. Next Steps in Your Full-Stack Engineer Journey
 
