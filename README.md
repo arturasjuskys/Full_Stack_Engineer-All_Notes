@@ -494,10 +494,15 @@
         * Code Challenges: [Beginner - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
         * Code Challenges: [Beginner - Convert Sorted Array to Bnary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
         * Code Challenges: [Beginner - Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
-        * Graph Search
-          * Youtube: [Graph Search: Algorithms](https://www.youtube.com/watch?v=swpIQgPoCWs)
-          * Youtube: [Graph Search: Depth First Search](https://www.youtube.com/watch?v=0_ZzqX5bpyA)
-          * Youtube: [Graph Search: Breadth First Search](https://www.youtube.com/watch?v=WiasVg9M81I)
+      * Graph Search
+        * Youtube: [Graph Search: Algorithms](https://www.youtube.com/watch?v=swpIQgPoCWs)
+        * Youtube: [Graph Search: Depth First Search](https://www.youtube.com/watch?v=0_ZzqX5bpyA)
+        * Youtube: [Graph Search: Breadth First Search](https://www.youtube.com/watch?v=WiasVg9M81I)
+      * Graph Traversals
+        * Interactive: [Graph Traversal](https://visualgo.net/en/dfsbfs?slide=1)
+        * Code Challenges: [Beginner - Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
+        * Code Challenges: [Beginner - Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
+        * Code Challenges: [Intermediate - Clone Graph](https://leetcode.com/problems/clone-graph/)
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
 51. Next Steps in Your Full-Stack Engineer Journey
