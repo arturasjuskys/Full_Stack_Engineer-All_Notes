@@ -487,6 +487,13 @@
         * Code Challenges: [Intermediate - Top Score Sorter](https://www.codecademy.com/code-challenges/code-challenge-top-score-sorter-javascript)
         * Code Challenges: [Intermediate - GetX](https://www.codecademy.com/code-challenges/code-challenge-find-xth-number-in-order-javascript)
 48. Search & Graph Search Algorithms
+      * Binary Search & Search Trees
+        * Resource: [Searching Sorted List](https://www.cs.usfca.edu/~galles/visualization/Search.html)
+        * Resource: [Binary Search Tree](https://visualgo.net/en/bst?slide=1)
+        * Code Challenges: [Beginner - Binary Search](https://leetcode.com/problems/binary-search/)
+        * Code Challenges: [Beginner - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+        * Code Challenges: [Beginner - Convert Sorted Array to Bnary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+        * Code Challenges: [Beginner - Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 49. Interview Skills
 50. Portfolio Project: Open-Ended PERN App
 51. Next Steps in Your Full-Stack Engineer Journey
