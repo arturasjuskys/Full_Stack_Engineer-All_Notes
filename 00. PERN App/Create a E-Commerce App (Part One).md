@@ -23,21 +23,21 @@ Prerequisites:
 * PostgreSQL
 
 ## Project Tasks
-[] - Set up local login - Add the logic for handling login using a username and password.
-[] - Next Steps - You’re welcome to expand your API beyond these project tasks and get creative! A future portfolio project will build on top of what you have built here, covering tasks for creating the client side of your e-commerce application. If you don’t want to wait that long, you can try building out a client for your API on your own!
-[] - Set up user registration - Add the logic for handling registration of new users.
-[] - Set up product endpoints - Add the logic for handling CRUD operations related to products.
-[] - Set up user endpoints - Add the logic for handling CRUD operations related to users and their accounts
-[] - Set up cart endpoint - Add the logic for handling CRUD operations related to a user’s cart.
-[] - Set up checkout endpoint - Add the logic for handling checkout. There is no need to actually try and charge somebody yet; charging will come in a later evolution of this project. For now, we will assume that all charges succeed for ease of development (still add in error handling to account for times it doesn’t).
-[] - Set up order endpoints - Add the logic for handling CRUD operations related to orders.
-[] - Document the API - Document the API you have built by adding and configuring Swagger to your project.
-[] - Set up an Express server - Create a directory for your project and set up a basic Express server.
-[] - Set up version control - Set up Git tracking in your directory and make sure to add and commit changes as you make them.
-[] -Design the database - Plan out the different types of data the application will track and how those pieces of data relate.
-[] -Create PostgreSQL database and tables - Create a PostgreSQL database and add the tables from your design.
-[] -Connect the app and database - Set up your application to be able to interface with the PostgreSQL database.
-[] -Plan API endpoints - Plan the API endpoints that will be used in retrieving data from your database.
+- [] Set up local login - Add the logic for handling login using a username and password.
+- [] Next Steps - You’re welcome to expand your API beyond these project tasks and get creative! A future portfolio project will build on top of what you have built here, covering tasks for creating the client side of your e-commerce application. If you don’t want to wait that long, you can try building out a client for your API on your own!
+- [] Set up user registration - Add the logic for handling registration of new users.
+- [] Set up product endpoints - Add the logic for handling CRUD operations related to products.
+- [] Set up user endpoints - Add the logic for handling CRUD operations related to users and their accounts
+- [] Set up cart endpoint - Add the logic for handling CRUD operations related to a user’s cart.
+- [] Set up checkout endpoint - Add the logic for handling checkout. There is no need to actually try and charge somebody yet; charging will come in a later evolution of this project. For now, we will assume that all charges succeed for ease of development (still add in error handling to account for times it doesn’t).
+- [] Set up order endpoints - Add the logic for handling CRUD operations related to orders.
+- [] Document the API - Document the API you have built by adding and configuring Swagger to your project.
+- [] Set up an Express server - Create a directory for your project and set up a basic Express server.
+- [] Set up version control - Set up Git tracking in your directory and make sure to add and commit changes as you make them.
+- [] Design the database - Plan out the different types of data the application will track and how those pieces of data relate.
+- [] Create PostgreSQL database and tables - Create a PostgreSQL database and add the tables from your design.
+- [] Connect the app and database - Set up your application to be able to interface with the PostgreSQL database.
+- [] Plan API endpoints - Plan the API endpoints that will be used in retrieving data from your database.
 
 ## Setup
 ### Going off platform
